@@ -1,0 +1,1528 @@
+﻿<includes>
+	<include name="Multiimage_Programs">
+		<control type="multiimage" id="3001">
+			<include>HiddenHomeImage</include>
+			<imagepath background="false" fallback="backdrops/addons.jpg">$INFO[Skin.String(CustomPrograms)]</imagepath>
+		</control>
+	</include>
+	<include name="Multiimage_CustomHomeItemImage_1">
+		<control type="multiimage" id="3002">
+			<include>HiddenHomeImage</include>
+			<imagepath background="false">$INFO[Skin.String(CustomHomeItemImage_1)]</imagepath>
+		</control>
+	</include>
+	<include name="Multiimage_CustomHomeItemFolder_1">
+		<control type="multiimage" id="3002">
+			<include>HiddenHomeImage</include>
+			<imagepath background="false">$INFO[Skin.String(CustomHomeItemFolder_1)]</imagepath>
+		</control>
+	</include>
+	<include name="Multiimage_Videos">
+		<control type="multiimage" id="3003">
+			<include>HiddenHomeImage</include>
+			<imagepath background="false" fallback="backdrops/videos.jpg">$INFO[Skin.String(CustomVideos)]</imagepath>
+		</control>
+	</include>
+	<include name="Multiimage_CustomHomeItemImage_2">
+		<control type="multiimage" id="3004">
+			<include>HiddenHomeImage</include>
+			<imagepath background="false">$INFO[Skin.String(CustomHomeItemImage_2)]</imagepath>
+		</control>
+	</include>
+	<include name="Multiimage_CustomHomeItemFolder_2">
+		<control type="multiimage" id="3004">
+			<include>HiddenHomeImage</include>
+			<imagepath background="false">$INFO[Skin.String(CustomHomeItemFolder_2)]</imagepath>
+		</control>
+	</include>
+	<include name="Multiimage_Music">
+		<control type="multiimage" id="3005">
+			<include>HiddenHomeImage</include>
+			<imagepath background="false" fallback="backdrops/music.jpg">$INFO[Skin.String(CustomMusic)]</imagepath>
+		</control>
+	</include>
+	<include name="Multiimage_CustomHomeItemImage_3">
+		<control type="multiimage" id="3006">
+			<include>HiddenHomeImage</include>
+			<imagepath background="false">$INFO[Skin.String(CustomHomeItemImage_3)]</imagepath>
+		</control>
+	</include>
+	<include name="Multiimage_CustomHomeItemFolder_3">
+		<control type="multiimage" id="3006">
+			<include>HiddenHomeImage</include>
+			<imagepath background="false">$INFO[Skin.String(CustomHomeItemFolder_3)]</imagepath>
+		</control>
+	</include>
+	<include name="Multiimage_Movies">
+		<control type="multiimage" id="3007">
+			<include>HiddenHomeImage</include>
+			<imagepath background="false" fallback="backdrops/movies.jpg">$INFO[Skin.String(CustomMovies)]</imagepath>
+		</control>
+	</include>
+	<include name="Multiimage_CustomHomeItemImage_4">
+		<control type="multiimage" id="3008">
+			<include>HiddenHomeImage</include>
+			<imagepath background="false">$INFO[Skin.String(CustomHomeItemImage_4)]</imagepath>
+		</control>
+	</include>
+	<include name="Multiimage_CustomHomeItemFolder_4">
+		<control type="multiimage" id="3008">
+			<include>HiddenHomeImage</include>
+			<imagepath background="false">$INFO[Skin.String(CustomHomeItemFolder_4)]</imagepath>
+		</control>
+	</include>
+	<include name="Multiimage_TVShows">
+		<control type="multiimage" id="3009">
+			<include>HiddenHomeImage</include>
+			<imagepath background="false" fallback="backdrops/tvshows.jpg">$INFO[Skin.String(CustomTVShows)]</imagepath>
+		</control>
+	</include>
+	<include name="Multiimage_CustomHomeItemImage_5">
+		<control type="multiimage" id="3010">
+			<include>HiddenHomeImage</include>
+			<imagepath background="false">$INFO[Skin.String(CustomHomeItemImage_5)]</imagepath>
+		</control>
+	</include>
+	<include name="Multiimage_CustomHomeItemFolder_5">
+		<control type="multiimage" id="3010">
+			<include>HiddenHomeImage</include>
+			<imagepath background="false">$INFO[Skin.String(CustomHomeItemFolder_5)]</imagepath>
+		</control>
+	</include>
+	<include name="Multiimage_Pictures">
+		<control type="multiimage" id="3011">
+			<include>HiddenHomeImage</include>
+			<imagepath background="false" fallback="backdrops/pictures.jpg">$INFO[Skin.String(CustomPictures)]</imagepath>
+		</control>
+	</include>
+	<include name="Multiimage_CustomHomeItemImage_6">
+		<control type="multiimage" id="3012">
+			<include>HiddenHomeImage</include>
+			<imagepath background="false">$INFO[Skin.String(CustomHomeItemImage_6)]</imagepath>
+		</control>
+	</include>
+	<include name="Multiimage_CustomHomeItemFolder_6">
+		<control type="multiimage" id="3012">
+			<include>HiddenHomeImage</include>
+			<imagepath background="false">$INFO[Skin.String(CustomHomeItemFolder_6)]</imagepath>
+		</control>
+	</include>
+	<include name="Multiimage_Weather">
+		<control type="multiimage" id="3013">
+			<include>HiddenHomeImage</include>
+			<imagepath background="false" fallback="backdrops/weather.jpg">$INFO[Skin.String(CustomWeather)]</imagepath>
+		</control>
+	</include>
+	<include name="Multiimage_CustomHomeItemImage_7">
+		<control type="multiimage" id="3014">
+			<include>HiddenHomeImage</include>
+			<imagepath background="false">$INFO[Skin.String(CustomHomeItemImage_7)]</imagepath>
+		</control>
+	</include>
+	<include name="Multiimage_CustomHomeItemFolder_7">
+		<control type="multiimage" id="3014">
+			<include>HiddenHomeImage</include>
+			<imagepath background="false">$INFO[Skin.String(CustomHomeItemFolder_7)]</imagepath>
+		</control>
+	</include>
+	<include name="Multiimage_Settings">
+		<control type="multiimage" id="3015">
+			<include>HiddenHomeImage</include>
+			<imagepath background="false" fallback="backdrops/settings.jpg">$INFO[Skin.String(CustomSettings)]</imagepath>
+		</control>
+	</include>
+	<include name="HomeDefault">
+		<include condition="!Skin.HasSetting(NoPrograms)">Multiimage_Programs</include>
+		<include condition="Skin.HasSetting(CustomHomeItem_1) + !IsEmpty(Skin.String(CustomHomeItemImage_1))">Multiimage_CustomHomeItemImage_1</include>
+		<include condition="Skin.HasSetting(CustomHomeItem_1) + IsEmpty(Skin.String(CustomHomeItemImage_1))">Multiimage_CustomHomeItemFolder_1</include>
+		<include condition="!Skin.HasSetting(NoVideos)">Multiimage_Videos</include>
+		<include condition="Skin.HasSetting(CustomHomeItem_2) + !IsEmpty(Skin.String(CustomHomeItemImage_2))">Multiimage_CustomHomeItemImage_2</include>
+		<include condition="Skin.HasSetting(CustomHomeItem_2) + IsEmpty(Skin.String(CustomHomeItemImage_2))">Multiimage_CustomHomeItemFolder_2</include>
+		<include condition="!Skin.HasSetting(NoMusic)">Multiimage_Music</include>
+		<include condition="Skin.HasSetting(CustomHomeItem_3) + !IsEmpty(Skin.String(CustomHomeItemImage_3))">Multiimage_CustomHomeItemImage_3</include>
+		<include condition="Skin.HasSetting(CustomHomeItem_3) + IsEmpty(Skin.String(CustomHomeItemImage_3))">Multiimage_CustomHomeItemFolder_3</include>
+		<include condition="!Skin.HasSetting(NoMovies)">Multiimage_Movies</include>
+		<include condition="Skin.HasSetting(CustomHomeItem_4) + !IsEmpty(Skin.String(CustomHomeItemImage_4))">Multiimage_CustomHomeItemImage_4</include>
+		<include condition="Skin.HasSetting(CustomHomeItem_4) + IsEmpty(Skin.String(CustomHomeItemImage_4))">Multiimage_CustomHomeItemFolder_4</include>
+		<include condition="!Skin.HasSetting(NoTVShows)">Multiimage_TVShows</include>
+		<include condition="Skin.HasSetting(CustomHomeItem_5) + !IsEmpty(Skin.String(CustomHomeItemImage_5))">Multiimage_CustomHomeItemImage_5</include>
+		<include condition="Skin.HasSetting(CustomHomeItem_5) + IsEmpty(Skin.String(CustomHomeItemImage_5))">Multiimage_CustomHomeItemFolder_5</include>
+		<include condition="!Skin.HasSetting(NoPictures)">Multiimage_Pictures</include>
+		<include condition="Skin.HasSetting(CustomHomeItem_6) + !IsEmpty(Skin.String(CustomHomeItemImage_6))">Multiimage_CustomHomeItemImage_6</include>
+		<include condition="Skin.HasSetting(CustomHomeItem_6) + IsEmpty(Skin.String(CustomHomeItemImage_6))">Multiimage_CustomHomeItemFolder_6</include>
+		<include condition="!Skin.HasSetting(NoWeather)">Multiimage_Weather</include>
+		<include condition="Skin.HasSetting(CustomHomeItem_7) + !IsEmpty(Skin.String(CustomHomeItemImage_7))">Multiimage_CustomHomeItemImage_7</include>
+		<include condition="Skin.HasSetting(CustomHomeItem_7) + IsEmpty(Skin.String(CustomHomeItemImage_7))">Multiimage_CustomHomeItemFolder_7</include>
+		<include condition="!Skin.HasSetting(NoSettings)">Multiimage_Settings</include>
+		<control type="button" id="30000">
+			<include>HiddenButton</include>
+			<onfocus>Control.SetFocus(302,9)</onfocus>
+		</control>
+		<control type="button" id="30001">
+			<include>HiddenButton</include>
+			<onfocus>Control.SetFocus(301,0)</onfocus>
+		</control>
+		<control type="fixedlist" id="300">
+			<posx>-249</posx>
+			<posy>170</posy>
+			<width>1614</width>
+			<height>320</height>
+			<onup>30000</onup>
+			<ondown>30001</ondown>
+			<onleft>300</onleft>
+			<onright>300</onright>
+			<viewtype>list</viewtype>
+			<scrolltime>300</scrolltime>
+			<orientation>horizontal</orientation>
+			<focusposition>2</focusposition>
+			<include>Animation_ZoomOutZoomIn</include>
+			<include>Animation_ZoomedByMenu</include>
+			<itemlayout width="352" height="320">
+				<control type="group">
+					<animation effect="zoom" center="auto" start="100" end="80" condition="true">Conditional</animation>
+					<control type="image">
+						<include>Object_MainMenuFanart</include>
+						<fadetime>1200</fadetime>
+						<texture background="true" diffuse="home/homematte.png">$INFO[ListItem.ActualIcon]</texture>
+					</control>
+					<include>Object_MainMenuFrame</include>
+					<control type="label">
+						<include>Object_MainMenuLabelAlt</include>
+						<label>$INFO[ListItem.Label]</label>
+					</control>
+					<include>Object_MainMenuShade</include>
+				</control>
+			</itemlayout>
+			<focusedlayout width="352" height="320">
+				<control type="group">
+					<animation type="Focus" condition="Container(300).OnNext | Container(300).OnPrevious" reversible="false">
+						<effect type="zoom" center="auto" tween="sine" easing="inout" time="300" start="80" end="100" />
+					</animation>
+					<animation type="UnFocus" condition="Container(300).OnNext | Container(300).OnPrevious" reversible="false">
+						<effect type="zoom" center="auto" tween="sine" easing="inout" time="300" start="100" end="80" />
+					</animation>
+					<control type="image">
+						<include>Object_MainMenuFanart</include>
+						<fadetime>1200</fadetime>
+						<texture background="true" diffuse="home/homematte.png">$INFO[ListItem.ActualIcon]</texture>
+					</control>
+					<control type="image">
+						<width>370</width>
+						<height>56</height>
+						<posx>0</posx>
+						<posy>265</posy>
+						<texture>home/homeback.png</texture>
+						<colordiffuse>HomeWindowTextBackgroundColour</colordiffuse>
+					</control>
+					<control type="label">
+						<include>Object_MainMenuLabelAlt</include>
+						<label>$INFO[ListItem.Label]</label>
+						<scroll>true</scroll>
+						<visible>Control.HasFocus(300)</visible>
+					</control>
+					<control type="fadelabel">
+						<include>Object_MainMenuLabel</include>
+						<label>$INFO[System.CurrentControl]</label>
+						<visible>!Control.HasFocus(300)</visible>
+					</control>
+					<control type="group">
+						<visible>Control.HasFocus(300)</visible>
+						<control type="image">
+							<width>370</width>
+							<height>320</height>
+							<posx>0</posx>
+							<posy>0</posy>
+							<texture>home/frame.png</texture>
+							<colordiffuse>HomeWindowFrameColor</colordiffuse>
+						</control>
+						<control type="image">
+							<width>370</width>
+							<height>320</height>
+							<posx>0</posx>
+							<posy>0</posy>
+							<texture>home/homeglass.png</texture>
+						</control>
+						<control type="image">
+							<posx>9</posx>
+							<posy>266</posy>
+							<width>349</width>
+							<height>40</height>
+							<texture>home/homeshade.png</texture>
+							<colordiffuse>HomeWindowShadeColor</colordiffuse>
+						</control>
+					</control>
+				</control>
+			</focusedlayout>
+			<content>
+				<item id="1">
+					<onclick>ActivateWindow(Programs,Addons,return)</onclick>
+					<label>$LOCALIZE[31029]</label>
+					<icon>$INFO[Control.GetLabel(3001)]</icon>
+					<visible>!Skin.HasSetting(NoPrograms)</visible>
+				</item>
+				<item id="2">
+					<label>$INFO[Skin.String(CustomHomeItemName_1)]</label>
+					<icon>$INFO[Control.GetLabel(3002)]</icon>
+					<onclick>$INFO[Skin.String(CustomHomeItemPath_1)]</onclick>
+					<visible>Skin.HasSetting(CustomHomeItem_1) + !IsEmpty(Skin.String(CustomHomeItemName_1)) + [SubString(Skin.String(CustomHomeItemPath_1),Script) | SubString(Skin.String(CustomHomeItemPath_1),ActivateWindow)]</visible>
+				</item>
+				<item id="2">
+					<label>$INFO[Skin.String(CustomHomeItemName_1)]</label>
+					<icon>$INFO[Control.GetLabel(3002)]</icon>
+					<onclick>ActivateWindow(Videos,plugin://$INFO[Skin.String(CustomHomeItemPath_1)],return))</onclick>
+					<visible>Skin.HasSetting(CustomHomeItem_1) + !IsEmpty(Skin.String(CustomHomeItemName_1)) + SubString(Skin.String(CustomHomeItemPath_1),plugin.video) + !SubString(Skin.String(CustomHomeItemPath_1),ActivateWindow)</visible>
+				</item>
+				<item id="2">
+					<label>$INFO[Skin.String(CustomHomeItemPath_1)]</label>
+					<icon>$INFO[Control.GetLabel(3002)]</icon>
+					<onclick>ActivateWindow(MusicLibrary,plugin://$INFO[Skin.String(CustomHomeItemPath_1)],return))</onclick>
+					<visible>Skin.HasSetting(CustomHomeItem_1) + !IsEmpty(Skin.String(CustomHomeItemName_1)) + SubString(Skin.String(CustomHomeItemPath_1),plugin.audio) + !SubString(Skin.String(CustomHomeItemPath_1),ActivateWindow)</visible>
+				</item>
+				<item id="2">
+					<label>$INFO[Skin.String(CustomHomeItemName_1)]</label>
+					<icon>$INFO[Control.GetLabel(3002)]</icon>
+					<onclick>ActivateWindow(Pictures,plugin://$INFO[Skin.String(CustomHomeItemPath_1)],return))</onclick>
+					<visible>Skin.HasSetting(CustomHomeItem_1) + !IsEmpty(Skin.String(CustomHomeItemName_1)) + SubString(Skin.String(CustomHomeItemPath_1),plugin.image) + !SubString(Skin.String(CustomHomeItemPath_1),ActivateWindow)</visible>
+				</item>
+				<item id="2">
+					<label>$INFO[Skin.String(CustomHomeItemName_1)]</label>
+					<icon>$INFO[Control.GetLabel(3002)]</icon>
+					<onclick>ActivateWindow(Programs,plugin://$INFO[Skin.String(CustomHomeItemPath_1)],return))</onclick>
+					<visible>Skin.HasSetting(CustomHomeItem_1) + !IsEmpty(Skin.String(CustomHomeItemName_1)) + SubString(Skin.String(CustomHomeItemPath_1),plugin.program) + !SubString(Skin.String(CustomHomeItemPath_1),ActivateWindow)</visible>
+				</item>
+				<item id="3">
+					<onclick>ActivateWindow(Videos,Files,return)</onclick>
+					<label>3</label>
+					<icon>$INFO[Control.GetLabel(3003)]</icon>
+					<visible>!Skin.HasSetting(NoVideos)</visible>
+				</item>
+				<item id="4">
+					<label>$INFO[Skin.String(CustomHomeItemName_2)]</label>
+					<icon>$INFO[Control.GetLabel(3004)]</icon>
+					<onclick>$INFO[Skin.String(CustomHomeItemPath_2)]</onclick>
+					<visible>Skin.HasSetting(CustomHomeItem_2) + !IsEmpty(Skin.String(CustomHomeItemName_2)) + [SubString(Skin.String(CustomHomeItemPath_2),Script) | SubString(Skin.String(CustomHomeItemPath_2),ActivateWindow)]</visible>
+				</item>
+				<item id="4">
+					<label>$INFO[Skin.String(CustomHomeItemName_2)]</label>
+					<icon>$INFO[Control.GetLabel(3004)]</icon>
+					<onclick>ActivateWindow(Videos,plugin://$INFO[Skin.String(CustomHomeItemPath_2)],return))</onclick>
+					<visible>Skin.HasSetting(CustomHomeItem_2) + !IsEmpty(Skin.String(CustomHomeItemName_2)) + SubString(Skin.String(CustomHomeItemPath_2),plugin.video) + !SubString(Skin.String(CustomHomeItemPath_2),ActivateWindow)</visible>
+				</item>
+				<item id="4">
+					<label>$INFO[Skin.String(CustomHomeItemName_2)]</label>
+					<icon>$INFO[Control.GetLabel(3004)]</icon>
+					<onclick>ActivateWindow(MusicLibrary,plugin://$INFO[Skin.String(CustomHomeItemPath_2)],return))</onclick>
+					<visible>Skin.HasSetting(CustomHomeItem_2) + !IsEmpty(Skin.String(CustomHomeItemName_2)) + SubString(Skin.String(CustomHomeItemPath_2),plugin.audio) + !SubString(Skin.String(CustomHomeItemPath_2),ActivateWindow)</visible>
+				</item>
+				<item id="4">
+					<label>$INFO[Skin.String(CustomHomeItemName_2)]</label>
+					<icon>$INFO[Control.GetLabel(3004)]</icon>
+					<onclick>ActivateWindow(Pictures,plugin://$INFO[Skin.String(CustomHomeItemPath_2)],return))</onclick>
+					<visible>Skin.HasSetting(CustomHomeItem_2) + !IsEmpty(Skin.String(CustomHomeItemName_2)) + SubString(Skin.String(CustomHomeItemPath_2),plugin.image) + !SubString(Skin.String(CustomHomeItemPath_2),ActivateWindow)</visible>
+				</item>
+				<item id="4">
+					<label>$INFO[Skin.String(CustomHomeItemName_2)]</label>
+					<icon>$INFO[Control.GetLabel(3004)]</icon>
+					<onclick>ActivateWindow(Programs,plugin://$INFO[Skin.String(CustomHomeItemPath_2)],return))</onclick>
+					<visible>Skin.HasSetting(CustomHomeItem_2) + !IsEmpty(Skin.String(CustomHomeItemName_2)) + SubString(Skin.String(CustomHomeItemPath_2),plugin.program) + !SubString(Skin.String(CustomHomeItemPath_2),ActivateWindow)</visible>
+				</item>
+				<item id="5">
+					<label>2</label>
+					<icon>$INFO[Control.GetLabel(3005)]</icon>
+					<onclick>ActivateWindow(MyMusicLibrary,Albums,return)</onclick>
+					<visible>!Skin.HasSetting(NoMusic) + !Skin.HasSetting(HomeReturnOff) + !Skin.HasSetting(HomeMusicArtists)</visible>
+				</item>
+				<item id="5">
+					<label>2</label>
+					<icon>$INFO[Control.GetLabel(3005)]</icon>
+					<onclick>ActivateWindow(MyMusicLibrary,Albums)</onclick>
+					<visible>!Skin.HasSetting(NoMusic) + Skin.HasSetting(HomeReturnOff) + !Skin.HasSetting(HomeMusicArtists)</visible>
+				</item>
+				<item id="5">
+					<label>2</label>
+					<icon>$INFO[Control.GetLabel(3005)]</icon>
+					<onclick>ActivateWindow(MyMusicLibrary,Artists,return)</onclick>
+					<visible>!Skin.HasSetting(NoMusic) + !Skin.HasSetting(HomeReturnOff) + Skin.HasSetting(HomeMusicArtists)</visible>
+				</item>
+				<item id="5">
+					<label>2</label>
+					<icon>$INFO[Control.GetLabel(3005)]</icon>
+					<onclick>ActivateWindow(MyMusicLibrary,Artists)</onclick>
+					<visible>!Skin.HasSetting(NoMusic) + Skin.HasSetting(HomeReturnOff) + Skin.HasSetting(HomeMusicArtists)</visible>
+				</item>
+				<item id="6">
+					<label>$INFO[Skin.String(CustomHomeItemName_3)]</label>
+					<icon>$INFO[Control.GetLabel(3006)]</icon>
+					<onclick>$INFO[Skin.String(CustomHomeItemPath_3)]</onclick>
+					<visible>Skin.HasSetting(CustomHomeItem_3) + !IsEmpty(Skin.String(CustomHomeItemName_3)) + [SubString(Skin.String(CustomHomeItemPath_3),Script) | SubString(Skin.String(CustomHomeItemPath_3),ActivateWindow)]</visible>
+				</item>
+				<item id="6">
+					<label>$INFO[Skin.String(CustomHomeItemName_3)]</label>
+					<icon>$INFO[Control.GetLabel(3006)]</icon>
+					<onclick>ActivateWindow(Videos,plugin://$INFO[Skin.String(CustomHomeItemPath_3)],return))</onclick>
+					<visible>Skin.HasSetting(CustomHomeItem_3) + !IsEmpty(Skin.String(CustomHomeItemName_3)) + SubString(Skin.String(CustomHomeItemPath_3),plugin.video) + !SubString(Skin.String(CustomHomeItemPath_3),ActivateWindow)</visible>
+				</item>
+				<item id="6">
+					<label>$INFO[Skin.String(CustomHomeItemName_3)]</label>
+					<icon>$INFO[Control.GetLabel(3006)]</icon>
+					<onclick>ActivateWindow(MusicLibrary,plugin://$INFO[Skin.String(CustomHomeItemPath_3)],return))</onclick>
+					<visible>Skin.HasSetting(CustomHomeItem_3) + !IsEmpty(Skin.String(CustomHomeItemName_3)) + SubString(Skin.String(CustomHomeItemPath_3),plugin.audio) + !SubString(Skin.String(CustomHomeItemPath_3),ActivateWindow)</visible>
+				</item>
+				<item id="6">
+					<label>$INFO[Skin.String(CustomHomeItemName_3)]</label>
+					<icon>$INFO[Control.GetLabel(3006)]</icon>
+					<onclick>ActivateWindow(Pictures,plugin://$INFO[Skin.String(CustomHomeItemPath_3)],return))</onclick>
+					<visible>Skin.HasSetting(CustomHomeItem_3) + !IsEmpty(Skin.String(CustomHomeItemName_3)) + SubString(Skin.String(CustomHomeItemPath_3),plugin.image) + !SubString(Skin.String(CustomHomeItemPath_3),ActivateWindow)</visible>
+				</item>
+				<item id="6">
+					<label>$INFO[Skin.String(CustomHomeItemName_3)]</label>
+					<icon>$INFO[Control.GetLabel(3006)]</icon>
+					<onclick>ActivateWindow(Programs,plugin://$INFO[Skin.String(CustomHomeItemPath_3)],return))</onclick>
+					<visible>Skin.HasSetting(CustomHomeItem_3) + !IsEmpty(Skin.String(CustomHomeItemName_3)) + SubString(Skin.String(CustomHomeItemPath_3),plugin.program) + !SubString(Skin.String(CustomHomeItemPath_3),ActivateWindow)</visible>
+				</item>
+				<item id="7">
+					<label>342</label>
+					<icon>$INFO[Control.GetLabel(3007)]</icon>
+					<onclick>ActivateWindow(MyVideoLibrary,movietitles,return)</onclick>
+					<visible>!Skin.HasSetting(NoMovies) + !Skin.HasSetting(HomeReturnOff)</visible>
+				</item>
+				<item id="7">
+					<label>342</label>
+					<icon>$INFO[Control.GetLabel(3007)]</icon>
+					<onclick>ActivateWindow(MyVideoLibrary,movietitles)</onclick>
+					<visible>!Skin.HasSetting(NoMovies) + Skin.HasSetting(HomeReturnOff)</visible>
+				</item>
+				<item id="8">
+					<onclick>PlayDVD()</onclick>
+					<label>341</label>
+					<icon>backdrops/playdisc.jpg</icon>
+					<visible>System.HasMediaDVD</visible>
+				</item>
+				<item id="9">
+					<label>$INFO[Skin.String(CustomHomeItemName_4)]</label>
+					<icon>$INFO[Control.GetLabel(3008)]</icon>
+					<onclick>$INFO[Skin.String(CustomHomeItemPath_4)]</onclick>
+					<visible>Skin.HasSetting(CustomHomeItem_4) + !IsEmpty(Skin.String(CustomHomeItemName_4)) + [SubString(Skin.String(CustomHomeItemPath_4),Script) | SubString(Skin.String(CustomHomeItemPath_4),ActivateWindow)]</visible>
+				</item>
+				<item id="9">
+					<label>$INFO[Skin.String(CustomHomeItemName_4)]</label>
+					<icon>$INFO[Control.GetLabel(3008)]</icon>
+					<onclick>ActivateWindow(Videos,plugin://$INFO[Skin.String(CustomHomeItemPath_4)],return))</onclick>
+					<visible>Skin.HasSetting(CustomHomeItem_4) + !IsEmpty(Skin.String(CustomHomeItemName_4)) + SubString(Skin.String(CustomHomeItemPath_4),plugin.video) + !SubString(Skin.String(CustomHomeItemPath_4),ActivateWindow)</visible>
+				</item>
+				<item id="9">
+					<label>$INFO[Skin.String(CustomHomeItemName_4)]</label>
+					<icon>$INFO[Control.GetLabel(3008)]</icon>
+					<onclick>ActivateWindow(MusicLibrary,plugin://$INFO[Skin.String(CustomHomeItemPath_4)],return))</onclick>
+					<visible>Skin.HasSetting(CustomHomeItem_4) + !IsEmpty(Skin.String(CustomHomeItemName_4)) + SubString(Skin.String(CustomHomeItemPath_4),plugin.audio) + !SubString(Skin.String(CustomHomeItemPath_4),ActivateWindow)</visible>
+				</item>
+				<item id="9">
+					<label>$INFO[Skin.String(CustomHomeItemName_4)]</label>
+					<icon>$INFO[Control.GetLabel(3008)]</icon>
+					<onclick>ActivateWindow(Pictures,plugin://$INFO[Skin.String(CustomHomeItemPath_4)],return))</onclick>
+					<visible>Skin.HasSetting(CustomHomeItem_4) + !IsEmpty(Skin.String(CustomHomeItemName_4)) + SubString(Skin.String(CustomHomeItemPath_4),plugin.image) + !SubString(Skin.String(CustomHomeItemPath_4),ActivateWindow)</visible>
+				</item>
+				<item id="9">
+					<label>$INFO[Skin.String(CustomHomeItemName_4)]</label>
+					<icon>$INFO[Control.GetLabel(3008)]</icon>
+					<onclick>ActivateWindow(Programs,plugin://$INFO[Skin.String(CustomHomeItemPath_4)],return))</onclick>
+					<visible>Skin.HasSetting(CustomHomeItem_4) + !IsEmpty(Skin.String(CustomHomeItemName_4)) + SubString(Skin.String(CustomHomeItemPath_4),plugin.program) + !SubString(Skin.String(CustomHomeItemPath_4),ActivateWindow)</visible>
+				</item>
+				<item id="10">
+					<label>20343</label>
+					<icon>$INFO[Control.GetLabel(3009)]</icon>
+					<onclick>ActivateWindow(MyVideoLibrary,tvshowtitles,return)</onclick>
+					<visible>!Skin.HasSetting(NoTVShows) + !Skin.HasSetting(HomeReturnOff)</visible>
+				</item>
+				<item id="10">
+					<label>20343</label>
+					<icon>$INFO[Control.GetLabel(3009)]</icon>
+					<onclick>ActivateWindow(MyVideoLibrary,tvshowtitles)</onclick>
+					<visible>!Skin.HasSetting(NoTVShows) + Skin.HasSetting(HomeReturnOff)</visible>
+				</item>
+				<item id="11">
+					<label>$INFO[Skin.String(CustomHomeItemName_5)]</label>
+					<icon>$INFO[Control.GetLabel(3010)]</icon>
+					<onclick>$INFO[Skin.String(CustomHomeItemPath_5)]</onclick>
+					<visible>Skin.HasSetting(CustomHomeItem_5) + !IsEmpty(Skin.String(CustomHomeItemName_5)) + [SubString(Skin.String(CustomHomeItemPath_5),Script) | SubString(Skin.String(CustomHomeItemPath_5),ActivateWindow)]</visible>
+				</item>
+				<item id="11">
+					<label>$INFO[Skin.String(CustomHomeItemName_5)]</label>
+					<icon>$INFO[Control.GetLabel(3010)]</icon>
+					<onclick>ActivateWindow(Videos,plugin://$INFO[Skin.String(CustomHomeItemPath_5)],return))</onclick>
+					<visible>Skin.HasSetting(CustomHomeItem_5) + !IsEmpty(Skin.String(CustomHomeItemName_5)) + SubString(Skin.String(CustomHomeItemPath_5),plugin.video) + !SubString(Skin.String(CustomHomeItemPath_5),ActivateWindow)</visible>
+				</item>
+				<item id="11">
+					<label>$INFO[Skin.String(CustomHomeItemName_5)]</label>
+					<icon>$INFO[Control.GetLabel(3010)]</icon>
+					<onclick>ActivateWindow(MusicLibrary,plugin://$INFO[Skin.String(CustomHomeItemPath_5)],return))</onclick>
+					<visible>Skin.HasSetting(CustomHomeItem_5) + !IsEmpty(Skin.String(CustomHomeItemName_5)) + SubString(Skin.String(CustomHomeItemPath_5),plugin.audio) + !SubString(Skin.String(CustomHomeItemPath_5),ActivateWindow)</visible>
+				</item>
+				<item id="11">
+					<label>$INFO[Skin.String(CustomHomeItemName_5)]</label>
+					<icon>$INFO[Control.GetLabel(3010)]</icon>
+					<onclick>ActivateWindow(Pictures,plugin://$INFO[Skin.String(CustomHomeItemPath_5)],return))</onclick>
+					<visible>Skin.HasSetting(CustomHomeItem_5) + !IsEmpty(Skin.String(CustomHomeItemName_5)) + SubString(Skin.String(CustomHomeItemPath_5),plugin.image) + !SubString(Skin.String(CustomHomeItemPath_5),ActivateWindow)</visible>
+				</item>
+				<item id="11">
+					<label>$INFO[Skin.String(CustomHomeItemName_5)]</label>
+					<icon>$INFO[Control.GetLabel(3010)]</icon>
+					<onclick>ActivateWindow(Programs,plugin://$INFO[Skin.String(CustomHomeItemPath_5)],return))</onclick>
+					<visible>Skin.HasSetting(CustomHomeItem_5) + !IsEmpty(Skin.String(CustomHomeItemName_5)) + SubString(Skin.String(CustomHomeItemPath_5),plugin.program) + !SubString(Skin.String(CustomHomeItemPath_5),ActivateWindow)</visible>
+				</item>
+				<item id="12">
+					<label>1</label>
+					<icon>$INFO[Control.GetLabel(3011)]</icon>
+					<onclick>ActivateWindow(Pictures)</onclick>
+					<visible>!Skin.HasSetting(NoPictures)</visible>
+				</item>
+				<item id="13">
+					<label>$INFO[Skin.String(CustomHomeItemName_6)]</label>
+					<icon>$INFO[Control.GetLabel(3012)]</icon>
+					<onclick>$INFO[Skin.String(CustomHomeItemPath_6)]</onclick>
+					<visible>Skin.HasSetting(CustomHomeItem_6) + !IsEmpty(Skin.String(CustomHomeItemName_6)) + [SubString(Skin.String(CustomHomeItemPath_6),Script) | SubString(Skin.String(CustomHomeItemPath_6),ActivateWindow)]</visible>
+				</item>
+				<item id="13">
+					<label>$INFO[Skin.String(CustomHomeItemName_6)]</label>
+					<icon>$INFO[Control.GetLabel(3012)]</icon>
+					<onclick>ActivateWindow(Videos,plugin://$INFO[Skin.String(CustomHomeItemPath_6)],return))</onclick>
+					<visible>Skin.HasSetting(CustomHomeItem_6) + !IsEmpty(Skin.String(CustomHomeItemName_6)) + SubString(Skin.String(CustomHomeItemPath_6),plugin.video) + !SubString(Skin.String(CustomHomeItemPath_6),ActivateWindow)</visible>
+				</item>
+				<item id="13">
+					<label>$INFO[Skin.String(CustomHomeItemName_6)]</label>
+					<icon>$INFO[Control.GetLabel(3012)]</icon>
+					<onclick>ActivateWindow(MusicLibrary,plugin://$INFO[Skin.String(CustomHomeItemPath_6)],return))</onclick>
+					<visible>Skin.HasSetting(CustomHomeItem_6) + !IsEmpty(Skin.String(CustomHomeItemName_6)) + SubString(Skin.String(CustomHomeItemPath_6),plugin.audio) + !SubString(Skin.String(CustomHomeItemPath_6),ActivateWindow)</visible>
+				</item>
+				<item id="13">
+					<label>$INFO[Skin.String(CustomHomeItemName_6)]</label>
+					<icon>$INFO[Control.GetLabel(3012)]</icon>
+					<onclick>ActivateWindow(Pictures,plugin://$INFO[Skin.String(CustomHomeItemPath_6)],return))</onclick>
+					<visible>Skin.HasSetting(CustomHomeItem_6) + !IsEmpty(Skin.String(CustomHomeItemName_6)) + SubString(Skin.String(CustomHomeItemPath_6),plugin.image) + !SubString(Skin.String(CustomHomeItemPath_6),ActivateWindow)</visible>
+				</item>
+				<item id="13">
+					<label>$INFO[Skin.String(CustomHomeItemName_6)]</label>
+					<icon>$INFO[Control.GetLabel(3012)]</icon>
+					<onclick>ActivateWindow(Programs,plugin://$INFO[Skin.String(CustomHomeItemPath_6)],return))</onclick>
+					<visible>Skin.HasSetting(CustomHomeItem_6) + !IsEmpty(Skin.String(CustomHomeItemName_6)) + SubString(Skin.String(CustomHomeItemPath_6),plugin.program) + !SubString(Skin.String(CustomHomeItemPath_6),ActivateWindow)</visible>
+				</item>
+				<item id="14">
+					<onclick>ActivateWindow(weather)</onclick>
+					<label>8</label>
+					<icon>$INFO[Control.GetLabel(3013)]</icon>
+					<visible>!Skin.HasSetting(NoWeather) + !Skin.HasSetting(HomeWeather)</visible>
+				</item>
+				<item id="14">
+					<onclick>ActivateWindow(weather)</onclick>
+					<label>$LOCALIZE[31157] $INFO[Window(Weather).Property(Current.Temperature)]$INFO[System.TemperatureUnits]</label>
+					<icon>$INFO[Control.GetLabel(3013)]</icon>
+					<visible>!Skin.HasSetting(NoWeather) + Skin.HasSetting(HomeWeather)</visible>
+				</item>
+				<item id="15">
+					<label>$INFO[Skin.String(CustomHomeItemName_7)]</label>
+					<icon>$INFO[Control.GetLabel(3014)]</icon>
+					<onclick>$INFO[Skin.String(CustomHomeItemPath_7)]</onclick>
+					<visible>Skin.HasSetting(CustomHomeItem_7) + !IsEmpty(Skin.String(CustomHomeItemName_7)) + [SubString(Skin.String(CustomHomeItemPath_7,Script) | SubString(Skin.String(CustomHomeItemPath_7),ActivateWindow)]</visible>
+				</item>
+				<item id="15">
+					<label>$INFO[Skin.String(CustomHomeItemName_7)]</label>
+					<icon>$INFO[Control.GetLabel(3014)]</icon>
+					<onclick>ActivateWindow(Videos,plugin://$INFO[Skin.String(CustomHomeItemPath_7)],return))</onclick>
+					<visible>Skin.HasSetting(CustomHomeItem_7) + !IsEmpty(Skin.String(CustomHomeItemName_7)) + SubString(Skin.String(CustomHomeItemPath_7),plugin.video) + !SubString(Skin.String(CustomHomeItemPath_7),ActivateWindow)</visible>
+				</item>
+				<item id="15">
+					<label>$INFO[Skin.String(CustomHomeItemName_7)]</label>
+					<icon>$INFO[Control.GetLabel(3014)]</icon>
+					<onclick>ActivateWindow(MusicLibrary,plugin://$INFO[Skin.String(CustomHomeItemPath_7)],return))</onclick>
+					<visible>Skin.HasSetting(CustomHomeItem_7) + !IsEmpty(Skin.String(CustomHomeItemName_7)) + SubString(Skin.String(CustomHomeItemPath_7),plugin.audio) + !SubString(Skin.String(CustomHomeItemPath_7),ActivateWindow)</visible>
+				</item>
+				<item id="15">
+					<label>$INFO[Skin.String(CustomHomeItemName_7)]</label>
+					<icon>$INFO[Control.GetLabel(3014)]</icon>
+					<onclick>ActivateWindow(Pictures,plugin://$INFO[Skin.String(CustomHomeItemPath_7)],return))</onclick>
+					<visible>Skin.HasSetting(CustomHomeItem_7) + !IsEmpty(Skin.String(CustomHomeItemName_7)) + SubString(Skin.String(CustomHomeItemPath_7),plugin.image) + !SubString(Skin.String(CustomHomeItemPath_7),ActivateWindow)</visible>
+				</item>
+				<item id="15">
+					<label>$INFO[Skin.String(CustomHomeItemName_7)]</label>
+					<icon>$INFO[Control.GetLabel(3014)]</icon>
+					<onclick>ActivateWindow(Programs,plugin://$INFO[Skin.String(CustomHomeItemPath_7)],return))</onclick>
+					<visible>Skin.HasSetting(CustomHomeItem_7) + !IsEmpty(Skin.String(CustomHomeItemName_7)) + SubString(Skin.String(CustomHomeItemPath_7),plugin.program) + !SubString(Skin.String(CustomHomeItemPath_7),ActivateWindow)</visible>
+				</item>
+				<item id="16">
+					<onclick>ActivateWindow(settings)</onclick>
+					<label>5</label>
+					<icon>$INFO[Control.GetLabel(3015)]</icon>
+					<visible>!Skin.HasSetting(NoSettings)</visible>
+				</item>
+			</content>
+		</control>
+		<control type="group">
+			<posx>455</posx>
+			<posy>170</posy>
+			<include>Animation_ZoomOutZoomIn</include>
+			<include>Animation_ZoomedByMenu</include>
+			<control type="group">
+				<visible>!Container(300).OnNext + !Container(300).OnPrevious</visible>
+				<animation effect="fade" start="0" end="100" time="0" delay="300" reversible="false">Visible</animation>
+				<control type="image">
+					<include>Object_MainMenuFanart</include>
+					<texture diffuse="home/homematte.png" >$INFO[Container(301).ListItem.Icon]</texture>
+					<visible>Control.HasFocus(301) + !Container(300).HasFocus(14)</visible>
+				</control>
+				<control type="multiimage">
+					<include>Object_MainMenuFanart</include>
+					<imagepath diffuse="home/homematte.png" >special://skin/extras/weather/$INFO[Container(301).ListItem.Icon]</imagepath>
+					<visible>Control.HasFocus(301) + Container(300).HasFocus(14)</visible>
+				</control>
+				<control type="image">
+					<include>Object_MainMenuFanart</include>
+					<texture diffuse="home/homematte.png" >$INFO[Container(302).ListItem.Icon]</texture>
+					<visible>Control.HasFocus(302)</visible>
+				</control>
+				<control type="group">
+					<visible>!Control.HasFocus(300)</visible>
+					<control type="image">
+						<width>370</width>
+						<height>320</height>
+						<posx>0</posx>
+						<posy>0</posy>
+						<texture>home/frame.png</texture>
+						<colordiffuse>HomeWindowFrameColor</colordiffuse>
+					</control>
+					<control type="image">
+						<width>370</width>
+						<height>320</height>
+						<posx>0</posx>
+						<posy>0</posy>
+						<texture>home/homeglass.png</texture>
+					</control>
+					<control type="image">
+						<posx>9</posx>
+						<posy>266</posy>
+						<width>349</width>
+						<height>40</height>
+						<texture>home/homeshade.png</texture>
+						<colordiffuse>HomeWindowShadeColor</colordiffuse>
+					</control>
+				</control>
+			</control>
+		</control>
+		<control type="list" id="301">
+			<onup>300</onup>
+			<ondown>-</ondown>
+			<onleft>300</onleft>
+			<onright>300</onright>
+			<visible>Container(300).HasFocus(1)</visible>
+			<content>
+				<item id="1">
+					<label>$LOCALIZE[1036]</label>
+					<onclick>ActivateWindow(Favourites)</onclick>
+					<visible>!Skin.HasSetting(HideFavourites)</visible>
+				</item>
+				<item id="2">
+					<label>$LOCALIZE[24001] $LOCALIZE[5]</label>
+					<onclick>ActivateWindow(AddonBrowser)</onclick>
+					<visible>!Skin.HasSetting(HideAddonsSettings)</visible>
+				</item>
+				<item id="3">
+					<label>$INFO[Skin.String(ProgramButtonName_1)]</label>
+					<icon>$INFO[Skin.String(ProgramButtonImage_1)]</icon>
+					<onclick>$INFO[Skin.String(ProgramButtonPath_1)]</onclick>
+					<visible>Skin.HasSetting(ProgramButton_1) + !IsEmpty(Skin.String(ProgramButtonName_1))</visible>
+				</item>
+				<item id="4">
+					<label>$INFO[Skin.String(ProgramButtonName_2)]</label>
+					<icon>$INFO[Skin.String(ProgramButtonImage_2)]</icon>
+					<onclick>$INFO[Skin.String(ProgramButtonPath_2)]</onclick>
+					<visible>Skin.HasSetting(ProgramButton_2) + !IsEmpty(Skin.String(ProgramButtonName_2))</visible>
+				</item>
+				<item id="5">
+					<label>$INFO[Skin.String(ProgramButtonName_3)]</label>
+					<icon>$INFO[Skin.String(ProgramButtonImage_3)]</icon>
+					<onclick>$INFO[Skin.String(ProgramButtonPath_3)]</onclick>
+					<visible>Skin.HasSetting(ProgramButton_3) + !IsEmpty(Skin.String(ProgramButtonName_3))</visible>
+				</item>
+				<item id="6">
+					<label>$INFO[Skin.String(ProgramButtonName_4)]</label>
+					<icon>$INFO[Skin.String(ProgramButtonImage_4)]</icon>
+					<onclick>$INFO[Skin.String(ProgramButtonPath_4)]</onclick>
+					<visible>Skin.HasSetting(ProgramButton_4) + !IsEmpty(Skin.String(ProgramButtonName_4))</visible>
+				</item>
+				<item id="7">
+					<label>$INFO[Skin.String(ProgramButtonName_5)]</label>
+					<icon>$INFO[Skin.String(ProgramButtonImage_5)]</icon>
+					<onclick>$INFO[Skin.String(ProgramButtonPath_5)]</onclick>
+					<visible>Skin.HasSetting(ProgramButton_5) + !IsEmpty(Skin.String(ProgramButtonName_5))</visible>
+				</item>
+				<item id="8">
+					<label>$INFO[Skin.String(ProgramButtonName_6)]</label>
+					<icon>$INFO[Skin.String(ProgramButtonImage_6)]</icon>
+					<onclick>$INFO[Skin.String(ProgramButtonPath_6)]</onclick>
+					<visible>Skin.HasSetting(ProgramButton_6) + !IsEmpty(Skin.String(ProgramButtonName_6))</visible>
+				</item>
+			</content>
+		</control>
+		<control type="list" id="301">
+			<onup>300</onup>
+			<ondown>-</ondown>
+			<onleft>300</onleft>
+			<onright>300</onright>
+			<visible>Container(300).HasFocus(3)</visible>
+			<content>
+				<item id="3">
+					<label>$LOCALIZE[1037]</label>
+					<onclick>ActivateWindow(Videos,Addons,return)</onclick>
+					<visible>!Skin.HasSetting(HideVideoAddons)</visible>
+				</item>
+				<item id="4">
+					<label>$LOCALIZE[20389]</label>
+					<onclick>ActivateWindow(Videos,musicvideotitles,return)</onclick>
+					<visible>!Skin.HasSetting(HideMusicVideos)</visible>
+				</item>
+				<item id="5">
+					<label>$LOCALIZE[20012]</label>
+					<onclick>ActivateWindow(Videos,Playlists,Return)</onclick>
+					<visible>!Skin.HasSetting(HideVideoPlaylists)</visible>
+				</item>
+				<item id="6">
+					<label>$LOCALIZE[10017]</label>
+					<onclick>ActivateWindow(VideosSettings)</onclick>
+					<visible>!Skin.HasSetting(HideVideoSettings)</visible>
+				</item>
+				<item id="7">
+					<label>$INFO[Skin.String(VideoButtonName_1)]</label>
+					<icon>$INFO[Skin.String(VideoButtonImage_1)]</icon>
+					<onclick>$INFO[Skin.String(VideoButtonPath_1)]</onclick>
+					<visible>Skin.HasSetting(VideoButton_1) + !IsEmpty(Skin.String(VideoButtonName_1))</visible>
+				</item>
+				<item id="8">
+					<label>$INFO[Skin.String(VideoButtonName_2)]</label>
+					<icon>$INFO[Skin.String(VideoButtonImage_2)]</icon>
+					<onclick>$INFO[Skin.String(VideoButtonPath_2)]</onclick>
+					<visible>Skin.HasSetting(VideoButton_2) + !IsEmpty(Skin.String(VideoButtonName_2))</visible>
+				</item>
+				<item id="9">
+					<label>$INFO[Skin.String(VideoButtonName_3)]</label>
+					<icon>$INFO[Skin.String(VideoButtonImage_3)]</icon>
+					<onclick>$INFO[Skin.String(VideoButtonPath_3)]</onclick>
+					<visible>Skin.HasSetting(VideoButton_3) + !IsEmpty(Skin.String(VideoButtonName_3))</visible>
+				</item>
+				<item id="10">
+					<label>$INFO[Skin.String(VideoButtonName_4)]</label>
+					<icon>$INFO[Skin.String(VideoButtonImage_4)]</icon>
+					<onclick>$INFO[Skin.String(VideoButtonPath_4)]</onclick>
+					<visible>Skin.HasSetting(VideoButton_4) + !IsEmpty(Skin.String(VideoButtonName_4))</visible>
+				</item>
+				<item id="11">
+					<label>$INFO[Skin.String(VideoButtonName_5)]</label>
+					<icon>$INFO[Skin.String(VideoButtonImage_5)]</icon>
+					<onclick>$INFO[Skin.String(VideoButtonPath_5)]</onclick>
+					<visible>Skin.HasSetting(VideoButton_5) + !IsEmpty(Skin.String(VideoButtonName_5))</visible>
+				</item>
+				<item id="12">
+					<label>$INFO[Skin.String(VideoButtonName_6)]</label>
+					<icon>$INFO[Skin.String(VideoButtonImage_6)]</icon>
+					<onclick>$INFO[Skin.String(VideoButtonPath_6]</onclick>
+					<visible>Skin.HasSetting(VideoButton_6) + !IsEmpty(Skin.String(VideoButtonName_6))</visible>
+				</item>
+			</content>
+		</control>
+		<control type="list" id="301">
+			<onup>300</onup>
+			<ondown>-</ondown>
+			<onleft>300</onleft>
+			<onright>300</onright>
+			<visible>Container(300).HasFocus(5)</visible>
+			<content>
+				<item id="1">
+					<label>$LOCALIZE[31303]</label>
+					<onclick>PlayMedia(&quot;$INFO[Window.Property(RandomSong.1.Path)]&quot;)</onclick>
+					<onclick>XBMC.RunScript(script.randomitems,limit=1&amp;albums=False&amp;unplayed=True)</onclick>
+					<visible>!Skin.HasSetting(HidePlayRandomSong)</visible>
+				</item>
+				<item id="2">
+					<label>$LOCALIZE[1038]</label>
+					<onclick>ActivateWindow(MusicLibrary,Addons,return)</onclick>
+					<visible>!Skin.HasSetting(HideMusicAddons)</visible>
+				</item>
+				<item id="3">
+					<label>$LOCALIZE[31171]</label>
+					<onclick>ActivateWindow(MusicLibrary,recentlyaddedalbums,return)</onclick>
+					<visible>!Skin.HasSetting(HideNewMusic)</visible>
+				</item>
+				<item id="4">
+					<label>$LOCALIZE[589]</label>
+					<texturefocus>-</texturefocus>
+					<texturenofocus>-</texturenofocus>
+					<onclick>PlayerControl(Partymode(music))</onclick>
+					<visible>!Skin.HasSetting(HidePartyMode)</visible>
+				</item>
+				<item id="5">
+					<label>$LOCALIZE[135]</label>
+					<onclick>ActivateWindow(MusicLibrary,genres,return)</onclick>
+					<visible>!Skin.HasSetting(HideMusicGenres)</visible>
+				</item>
+				<item id="6">
+					<label>$LOCALIZE[133]</label>
+					<onclick>ActivateWindow(MusicLibrary,artists,return)</onclick>
+					<visible>!Skin.HasSetting(HideMusicArtists) + !Skin.HasSetting(HomeMusicArtists)</visible>
+				</item>
+				<item id="7">
+					<label>$LOCALIZE[132]</label>
+					<onclick>ActivateWindow(MusicLibrary,albums,return)</onclick>
+					<visible>!Skin.HasSetting(HideMusicArtists) + Skin.HasSetting(HomeMusicArtists)</visible>
+				</item>
+				<item id="8">
+					<label>$LOCALIZE[652]</label>
+					<onclick>ActivateWindow(MusicLibrary,years,return)</onclick>
+					<visible>!Skin.HasSetting(HideMusicYears)</visible>
+				</item>
+				<item id="9">
+					<label>$LOCALIZE[20011]</label>
+					<onclick>ActivateWindow(MusicLibrary,Playlists,Return)</onclick>
+					<visible>!Skin.HasSetting(HideMusicPlaylists)</visible>
+				</item>
+				<item id="10">
+					<label>$LOCALIZE[744]</label>
+					<onclick>ActivateWindow(MusicFiles)</onclick>
+					<visible>!Skin.HasSetting(HideMusicFiles)</visible>
+				</item>
+				<item id="11">
+					<label>$LOCALIZE[2] $LOCALIZE[20108]</label>
+					<onclick>ActivateWindow(MusicLibrary,musicdb://)</onclick>
+					<visible>!Skin.HasSetting(HideMusicRoot)</visible>
+				</item>
+				<item id="12">
+					<label>$LOCALIZE[20389]</label>
+					<onclick>ActivateWindow(Videos,MusicVideos)</onclick>
+					<visible>!Skin.HasSetting(HideMusicVideos)</visible>
+				</item>
+				<item id="13">
+					<label>$LOCALIZE[10015]</label>
+					<onclick>ActivateWindow(MusicSettings)</onclick>
+					<visible>!Skin.HasSetting(HideMusicSettings)</visible>
+				</item>
+				<item id="14">
+					<label>$INFO[Skin.String(MusicButtonName_1)]</label>
+					<icon>$INFO[Skin.String(MusicButtonImage_1)]</icon>
+					<onclick>$INFO[Skin.String(MusicButtonPath_1)]</onclick>
+					<visible>Skin.HasSetting(MusicButton_1) + !IsEmpty(Skin.String(MusicButtonName_1))</visible>
+				</item>
+				<item id="15">
+					<label>$INFO[Skin.String(MusicButtonName_2)]</label>
+					<icon>$INFO[Skin.String(MusicButtonImage_2)]</icon>
+					<onclick>$INFO[Skin.String(MusicButtonPath_2)]</onclick>
+					<visible>Skin.HasSetting(MusicButton_2) + !IsEmpty(Skin.String(MusicButtonName_2))</visible>
+				</item>
+				<item id="16">
+					<label>$INFO[Skin.String(MusicButtonName_3)]</label>
+					<icon>$INFO[Skin.String(MusicButtonImage_3)]</icon>
+					<onclick>$INFO[Skin.String(MusicButtonPath_3)]</onclick>
+					<visible>Skin.HasSetting(MusicButton_3) + !IsEmpty(Skin.String(MusicButtonName_3))</visible>
+				</item>
+				<item id="17">
+					<label>$INFO[Skin.String(MusicButtonName_4)]</label>
+					<icon>$INFO[Skin.String(MusicButtonImage_4)]</icon>
+					<onclick>$INFO[Skin.String(MusicButtonPath_4)]</onclick>
+					<visible>Skin.HasSetting(MusicButton_4) + !IsEmpty(Skin.String(MusicButtonName_4))</visible>
+				</item>
+				<item id="18">
+					<label>$INFO[Skin.String(MusicButtonName_5)]</label>
+					<icon>$INFO[Skin.String(MusicButtonImage_5)]</icon>
+					<onclick>$INFO[Skin.String(MusicButtonPath_5)]</onclick>
+					<visible>Skin.HasSetting(MusicButton_5) + !IsEmpty(Skin.String(MusicButtonName_5))</visible>
+				</item>
+				<item id="19">
+					<label>$INFO[Skin.String(MusicButtonName_6)]</label>
+					<icon>$INFO[Skin.String(MusicButtonImage_6)]</icon>
+					<onclick>$INFO[Skin.String(MusicButtonPath_6)]</onclick>
+					<visible>Skin.HasSetting(MusicButton_6) + !IsEmpty(Skin.String(MusicButtonName_6))</visible>
+				</item>
+			</content>
+		</control>
+		<control type="list" id="302">
+			<onup>-</onup>
+			<ondown>300</ondown>
+			<onleft>300</onleft>
+			<onright>300</onright>
+			<visible>Container(300).HasFocus(5) + !Skin.HasSetting(RecentSongs)</visible>
+			<content>
+				<item id="1">
+					<icon>$INFO[Window.Property(LatestAlbum.10.Thumb)]</icon>
+					<label>$INFO[Window.Property(LatestAlbum.10.Title),, - ]$INFO[Window.Property(LatestAlbum.10.Artist)]</label>
+					<onclick>Playlist.Clear</onclick>
+					<onclick>PlayMedia(&quot;$INFO[Window.Property(LatestAlbum.10.Path)]&quot;)</onclick>
+					<visible>!IsEmpty(Window.Property(LatestAlbum.10.Title))</visible>
+				</item>
+				<item id="2">
+					<icon>$INFO[Window.Property(LatestAlbum.9.Thumb)]</icon>
+					<label>$INFO[Window.Property(LatestAlbum.9.Title),, - ]$INFO[Window.Property(LatestAlbum.9.Artist)]</label>
+					<onclick>Playlist.Clear</onclick>
+					<onclick>PlayMedia(&quot;$INFO[Window.Property(LatestAlbum.9.Path)]&quot;)</onclick>
+					<visible>!IsEmpty(Window.Property(LatestAlbum.9.Title))</visible>
+				</item>
+				<item id="3">
+					<icon>$INFO[Window.Property(LatestAlbum.8.Thumb)]</icon>
+					<label>$INFO[Window.Property(LatestAlbum.8.Title),, - ]$INFO[Window.Property(LatestAlbum.8.Artist)]</label>
+					<onclick>Playlist.Clear</onclick>
+					<onclick>PlayMedia(&quot;$INFO[Window.Property(LatestAlbum.8.Path)]&quot;)</onclick>
+					<visible>!IsEmpty(Window.Property(LatestAlbum.8.Title))</visible>
+				</item>
+				<item id="4">
+					<icon>$INFO[Window.Property(LatestAlbum.7.Thumb)]</icon>
+					<label>$INFO[Window.Property(LatestAlbum.7.Title),, - ]$INFO[Window.Property(LatestAlbum.7.Artist)]</label>
+					<onclick>Playlist.Clear</onclick>
+					<onclick>PlayMedia(&quot;$INFO[Window.Property(LatestAlbum.7.Path)]&quot;)</onclick>
+					<visible>!IsEmpty(Window.Property(LatestAlbum.7.Title))</visible>
+				</item>
+				<item id="5">
+					<icon>$INFO[Window.Property(LatestAlbum.6.Thumb)]</icon>
+					<label>$INFO[Window.Property(LatestAlbum.6.Title),, - ]$INFO[Window.Property(LatestAlbum.6.Artist)]</label>
+					<onclick>Playlist.Clear</onclick>
+					<onclick>PlayMedia(&quot;$INFO[Window.Property(LatestAlbum.6.Path)]&quot;)</onclick>
+					<visible>!IsEmpty(Window.Property(LatestAlbum.6.Title))</visible>
+				</item>
+				<item id="6">
+					<icon>$INFO[Window.Property(LatestAlbum.5.Thumb)]</icon>
+					<label>$INFO[Window.Property(LatestAlbum.5.Title),, - ]$INFO[Window.Property(LatestAlbum.5.Artist)]</label>
+					<onclick>Playlist.Clear</onclick>
+					<onclick>PlayMedia(&quot;$INFO[Window.Property(LatestAlbum.5.Path)]&quot;)</onclick>
+					<visible>!IsEmpty(Window.Property(LatestAlbum.5.Title))</visible>
+				</item>
+				<item id="7">
+					<icon>$INFO[Window.Property(LatestAlbum.4.Thumb)]</icon>
+					<label>$INFO[Window.Property(LatestAlbum.4.Title),, - ]$INFO[Window.Property(LatestAlbum.4.Artist)]</label>
+					<onclick>Playlist.Clear</onclick>
+					<onclick>PlayMedia(&quot;$INFO[Window.Property(LatestAlbum.4.Path)]&quot;)</onclick>
+					<visible>!IsEmpty(Window.Property(LatestAlbum.4.Title))</visible>
+				</item>
+				<item id="8">
+					<icon>$INFO[Window.Property(LatestAlbum.3.Thumb)]</icon>
+					<label>$INFO[Window.Property(LatestAlbum.3.Title),, - ]$INFO[Window.Property(LatestAlbum.3.Artist)]</label>
+					<onclick>Playlist.Clear</onclick>
+					<onclick>PlayMedia(&quot;$INFO[Window.Property(LatestAlbum.3.Path)]&quot;)</onclick>
+					<visible>!IsEmpty(Window.Property(LatestAlbum.3.Title))</visible>
+				</item>
+				<item id="9">
+					<icon>$INFO[Window.Property(LatestAlbum.2.Thumb)]</icon>
+					<label>$INFO[Window.Property(LatestAlbum.2.Title),, - ]$INFO[Window.Property(LatestAlbum.2.Artist)]</label>
+					<onclick>Playlist.Clear</onclick>
+					<onclick>PlayMedia(&quot;$INFO[Window.Property(LatestAlbum.2.Path)]&quot;)</onclick>
+					<visible>!IsEmpty(Window.Property(LatestAlbum.2.Title))</visible>
+				</item>
+				<item id="10">
+					<icon>$INFO[Window.Property(LatestAlbum.1.Thumb)]</icon>
+					<label>$INFO[Window.Property(LatestAlbum.1.Title),, - ]$INFO[Window.Property(LatestAlbum.1.Artist)]</label>
+					<onclick>Playlist.Clear</onclick>
+					<onclick>PlayMedia(&quot;$INFO[Window.Property(LatestAlbum.1.Path)]&quot;)</onclick>
+					<visible>!IsEmpty(Window.Property(LatestAlbum.1.Title))</visible>
+				</item>
+			</content>
+		</control>
+
+		<control type="list" id="302">
+			<onup>-</onup>
+			<ondown>300</ondown>
+			<onleft>300</onleft>
+			<onright>300</onright>
+			<visible>Container(300).HasFocus(5) + Skin.HasSetting(RecentSongs)</visible>
+			<content>
+				<item id="1">
+					<icon>$INFO[Window.Property(LatestSong.10.Thumb)]</icon>
+					<label>$INFO[Window.Property(LatestSong.10.Title),, - ]$INFO[Window.Property(LatestSong.10.Album),, • ]$INFO[Window.Property(LatestSong.10.Artist)]</label>
+					<onclick>PlayMedia(&quot;$INFO[Window.Property(LatestSong.10.Path)]&quot;)</onclick>
+					<visible>!IsEmpty(Window.Property(LatestSong.10.Title))</visible>
+				</item>
+				<item id="2">
+					<icon>$INFO[Window.Property(LatestSong.9.Thumb)]</icon>
+					<label>$INFO[Window.Property(LatestSong.9.Title),, - ]$INFO[Window.Property(LatestSong.9.Album),, • ]$INFO[Window.Property(LatestSong.9.Artist)]</label>
+					<onclick>PlayMedia(&quot;$INFO[Window.Property(LatestSong.9.Path)]&quot;)</onclick>
+					<visible>!IsEmpty(Window.Property(LatestSong.9.Title))</visible>
+				</item>
+				<item id="3">
+					<icon>$INFO[Window.Property(LatestSong.8.Thumb)]</icon>
+					<label>$INFO[Window.Property(LatestSong.8.Title),, - ]$INFO[Window.Property(LatestSong.8.Album),, • ]$INFO[Window.Property(LatestSong.8.Artist)]</label>
+					<onclick>PlayMedia(&quot;$INFO[Window.Property(LatestSong.8.Path)]&quot;)</onclick>
+					<visible>!IsEmpty(Window.Property(LatestSong.8.Title))</visible>
+				</item>
+				<item id="4">
+					<icon>$INFO[Window.Property(LatestSong.7.Thumb)]</icon>
+					<label>$INFO[Window.Property(LatestSong.7.Title),, - ]$INFO[Window.Property(LatestSong.7.Album),, • ]$INFO[Window.Property(LatestSong.7.Artist)]</label>
+					<onclick>PlayMedia(&quot;$INFO[Window.Property(LatestSong.7.Path)]&quot;)</onclick>
+					<visible>!IsEmpty(Window.Property(LatestSong.7.Title))</visible>
+				</item>
+				<item id="5">
+					<icon>$INFO[Window.Property(LatestSong.6.Thumb)]</icon>
+					<label>$INFO[Window.Property(LatestSong.6.Title),, - ]$INFO[Window.Property(LatestSong.6.Album),, • ]$INFO[Window.Property(LatestSong.6.Artist)]</label>
+					<onclick>PlayMedia(&quot;$INFO[Window.Property(LatestSong.6.Path)]&quot;)</onclick>
+					<visible>!IsEmpty(Window.Property(LatestSong.6.Title))</visible>
+				</item>
+				<item id="6">
+					<icon>$INFO[Window.Property(LatestSong.5.Thumb)]</icon>
+					<label>$INFO[Window.Property(LatestSong.5.Title),, - ]$INFO[Window.Property(LatestSong.5.Album),, • ]$INFO[Window.Property(LatestSong.5.Artist)]</label>
+					<onclick>PlayMedia(&quot;$INFO[Window.Property(LatestSong.5.Path)]&quot;)</onclick>
+					<visible>!IsEmpty(Window.Property(LatestSong.5.Title))</visible>
+				</item>
+				<item id="7">
+					<icon>$INFO[Window.Property(LatestSong.4.Thumb)]</icon>
+					<label>$INFO[Window.Property(LatestSong.4.Title),, - ]$INFO[Window.Property(LatestSong.4.Album),, • ]$INFO[Window.Property(LatestSong.4.Artist)]</label>
+					<onclick>PlayMedia(&quot;$INFO[Window.Property(LatestSong.4.Path)]&quot;)</onclick>
+					<visible>!IsEmpty(Window.Property(LatestSong.4.Title))</visible>
+				</item>
+				<item id="8">
+					<icon>$INFO[Window.Property(LatestSong.3.Thumb)]</icon>
+					<label>$INFO[Window.Property(LatestSong.3.Title),, - ]$INFO[Window.Property(LatestSong.3.Album),, • ]$INFO[Window.Property(LatestSong.3.Artist)]</label>
+					<onclick>PlayMedia(&quot;$INFO[Window.Property(LatestSong.3.Path)]&quot;)</onclick>
+					<visible>!IsEmpty(Window.Property(LatestSong.3.Title))</visible>
+				</item>
+				<item id="9">
+					<icon>$INFO[Window.Property(LatestSong.2.Thumb)]</icon>
+					<label>$INFO[Window.Property(LatestSong.2.Title),, - ]$INFO[Window.Property(LatestSong.2.Album),, • ]$INFO[Window.Property(LatestSong.2.Artist)]</label>
+					<onclick>PlayMedia(&quot;$INFO[Window.Property(LatestSong.2.Path)]&quot;)</onclick>
+					<visible>!IsEmpty(Window.Property(LatestSong.2.Title))</visible>
+				</item>
+				<item id="10">
+					<icon>$INFO[Window.Property(LatestSong.1.Thumb)]</icon>
+					<label>$INFO[Window.Property(LatestSong.1.Title),, - ]$INFO[Window.Property(LatestSong.1.Album),, • ]$INFO[Window.Property(LatestSong.1.Artist)]</label>
+					<onclick>PlayMedia(&quot;$INFO[Window.Property(LatestSong.1.Path)]&quot;)</onclick>
+					<visible>!IsEmpty(Window.Property(LatestSong.1.Title))</visible>
+				</item>
+			</content>
+		</control>
+
+		<control type="list" id="301">
+			<onup>300</onup>
+			<ondown>-</ondown>
+			<onleft>300</onleft>
+			<onright>300</onright>
+			<visible>Container(300).HasFocus(7)</visible>
+			<content>
+				<item id="1">
+					<label>$LOCALIZE[31301]</label>
+					<onclick>PlayMedia(&quot;$INFO[Window.Property(RandomMovie.1.Path)]&quot;)</onclick>
+					<onclick>XBMC.RunScript(script.randomitems,limit=1&amp;albums=False&amp;unplayed=True)</onclick>
+					<visible>!Skin.HasSetting(HidePlayRandomMovie)</visible>
+				</item>
+				<item id="2">
+					<label>$LOCALIZE[31172]</label>
+					<onclick>ActivateWindow(Videos,recentlyaddedmovies,return)</onclick>
+					<visible>!Skin.HasSetting(HideMoviesNew)</visible>
+				</item>
+				<item id="3">
+					<label>$LOCALIZE[20388]</label>
+					<onclick>ActivateWindow(Videos,moviestudios,return)</onclick>
+					<visible>!Skin.HasSetting(HideMovieStudios)</visible>
+				</item>
+				<item id="4">
+					<label>$LOCALIZE[135]</label>
+					<onclick>ActivateWindow(Videos,moviegenres,return)</onclick>
+					<visible>!Skin.HasSetting(HideMovieGenres)</visible>
+				</item>
+				<item id="5">
+					<label>$LOCALIZE[344]</label>
+					<onclick>ActivateWindow(Videos,movieactors,return)</onclick>
+					<visible>!Skin.HasSetting(HideMovieActors)</visible>
+				</item>
+				<item id="6">
+					<label>$LOCALIZE[345]</label>
+					<onclick>ActivateWindow(Videos,movieyears,return)</onclick>
+					<visible>!Skin.HasSetting(HideMovieYears)</visible>
+				</item>
+				<item id="7">
+					<label>$LOCALIZE[20348]</label>
+					<onclick>ActivateWindow(Videos,moviedirectors,return)</onclick>
+					<visible>!Skin.HasSetting(HideMovieDirectors)</visible>
+				</item>
+				<item id="8">
+					<label>$LOCALIZE[744]</label>
+					<onclick>ActivateWindow(Videos,Files,return)</onclick>
+					<visible>!Skin.HasSetting(HideMovieFiles)</visible>
+				</item>
+				<item id="9">
+					<label>$LOCALIZE[157] $LOCALIZE[20108]</label>
+					<onclick>ActivateWindow(Videos,videodb://)</onclick>
+					<visible>!Skin.HasSetting(HideVideoRoot)</visible>
+				</item>
+				<item id="10">
+					<label>$LOCALIZE[10017]</label>
+					<onclick>ActivateWindow(VideosSettings)</onclick>
+					<visible>!Skin.HasSetting(HideMovieSettings)</visible>
+				</item>
+				<item id="11">
+					<label>$INFO[Skin.String(MovieButtonName_1)]</label>
+					<icon>$INFO[Skin.String(MovieButtonImage_1)]</icon>
+					<onclick>$INFO[Skin.String(MovieButtonPath_1)]</onclick>
+					<visible>Skin.HasSetting(MovieButton_1) + !IsEmpty(Skin.String(MovieButtonName_1))</visible>
+				</item>
+				<item id="12">
+					<label>$INFO[Skin.String(MovieButtonName_2)]</label>
+					<icon>$INFO[Skin.String(MovieButtonImage_2)]</icon>
+					<onclick>$INFO[Skin.String(MovieButtonPath_2)]</onclick>
+					<visible>Skin.HasSetting(MovieButton_2) + !IsEmpty(Skin.String(MovieButtonName_2))</visible>
+				</item>
+				<item id="13">
+					<label>$INFO[Skin.String(MovieButtonName_3)]</label>
+					<icon>$INFO[Skin.String(MovieButtonImage_3)]</icon>
+					<onclick>$INFO[Skin.String(MovieButtonPath_3)]</onclick>
+					<visible>Skin.HasSetting(MovieButton_3) + !IsEmpty(Skin.String(MovieButtonName_3))</visible>
+				</item>
+				<item id="14">
+					<label>$INFO[Skin.String(MovieButtonName_4)]</label>
+					<icon>$INFO[Skin.String(MovieButtonImage_4)]</icon>
+					<onclick>$INFO[Skin.String(MovieButtonPath_4)]</onclick>
+					<visible>Skin.HasSetting(MovieButton_4) + !IsEmpty(Skin.String(MovieButtonName_4))</visible>
+				</item>
+				<item id="15">
+					<label>$INFO[Skin.String(MovieButtonName_5)]</label>
+					<icon>$INFO[Skin.String(MovieButtonImage_5)]</icon>
+					<onclick>$INFO[Skin.String(MovieButtonPath_5)]</onclick>
+					<visible>Skin.HasSetting(MovieButton_5) + !IsEmpty(Skin.String(MovieButtonName_5))</visible>
+				</item>
+				<item id="16">
+					<label>$INFO[Skin.String(MovieButtonName_6)]</label>
+					<icon>$INFO[Skin.String(MovieButtonImage_6)]</icon>
+					<onclick>$INFO[Skin.String(MovieButtonPath_6)]</onclick>
+					<visible>Skin.HasSetting(MovieButton_6) + !IsEmpty(Skin.String(MovieButtonName_6))</visible>
+				</item>
+			</content>
+		</control>
+		<control type="list" id="302">
+			<onup>-</onup>
+			<ondown>300</ondown>
+			<onleft>300</onleft>
+			<onright>300</onright>
+			<visible>Container(300).HasFocus(7)</visible>
+			<content>
+				<item id="1">
+					<icon>$INFO[Window.Property(LatestMovie.10.Fanart)]</icon>
+					<label>$INFO[Window.Property(LatestMovie.10.Title)]</label>
+					<onclick>PlayMedia(&quot;$INFO[Window.Property(LatestMovie.10.Path)]&quot;)</onclick>
+					<visible>!IsEmpty(Window.Property(LatestMovie.10.Title))</visible>
+				</item>
+				<item id="2">
+					<icon>$INFO[Window.Property(LatestMovie.9.Fanart)]</icon>
+					<label>$INFO[Window.Property(LatestMovie.9.Title)]</label>
+					<onclick>PlayMedia(&quot;$INFO[Window.Property(LatestMovie.9.Path)]&quot;)</onclick>
+					<visible>!IsEmpty(Window.Property(LatestMovie.9.Title))</visible>
+				</item>
+				<item id="3">
+					<icon>$INFO[Window.Property(LatestMovie.8.Fanart)]</icon>
+					<label>$INFO[Window.Property(LatestMovie.8.Title)]</label>
+					<onclick>PlayMedia(&quot;$INFO[Window.Property(LatestMovie.8.Path)]&quot;)</onclick>
+					<visible>!IsEmpty(Window.Property(LatestMovie.8.Title))</visible>
+				</item>
+				<item id="4">
+					<icon>$INFO[Window.Property(LatestMovie.7.Fanart)]</icon>
+					<label>$INFO[Window.Property(LatestMovie.7.Title)]</label>
+					<onclick>PlayMedia(&quot;$INFO[Window.Property(LatestMovie.7.Path)]&quot;)</onclick>
+					<visible>!IsEmpty(Window.Property(LatestMovie.7.Title))</visible>
+				</item>
+				<item id="5">
+					<icon>$INFO[Window.Property(LatestMovie.6.Fanart)]</icon>
+					<label>$INFO[Window.Property(LatestMovie.6.Title)]</label>
+					<onclick>PlayMedia(&quot;$INFO[Window.Property(LatestMovie.6.Path)]&quot;)</onclick>
+					<visible>!IsEmpty(Window.Property(LatestMovie.6.Title))</visible>
+				</item>
+				<item id="6">
+					<icon>$INFO[Window.Property(LatestMovie.5.Fanart)]</icon>
+					<label>$INFO[Window.Property(LatestMovie.5.Title)]</label>
+					<onclick>PlayMedia(&quot;$INFO[Window.Property(LatestMovie.5.Path)]&quot;)</onclick>
+					<visible>!IsEmpty(Window.Property(LatestMovie.5.Title))</visible>
+				</item>
+				<item id="7">
+					<icon>$INFO[Window.Property(LatestMovie.4.Fanart)]</icon>
+					<label>$INFO[Window.Property(LatestMovie.4.Title)]</label>
+					<onclick>PlayMedia(&quot;$INFO[Window.Property(LatestMovie.4.Path)]&quot;)</onclick>
+					<visible>!IsEmpty(Window.Property(LatestMovie.4.Title))</visible>
+				</item>
+				<item id="8">
+					<icon>$INFO[Window.Property(LatestMovie.3.Fanart)]</icon>
+					<label>$INFO[Window.Property(LatestMovie.3.Title)]</label>
+					<onclick>PlayMedia(&quot;$INFO[Window.Property(LatestMovie.3.Path)]&quot;)</onclick>
+					<visible>!IsEmpty(Window.Property(LatestMovie.3.Title))</visible>
+				</item>
+				<item id="9">
+					<icon>$INFO[Window.Property(LatestMovie.2.Fanart)]</icon>
+					<label>$INFO[Window.Property(LatestMovie.2.Title)]</label>
+					<onclick>PlayMedia(&quot;$INFO[Window.Property(LatestMovie.2.Path)]&quot;)</onclick>
+					<visible>!IsEmpty(Window.Property(LatestMovie.2.Title))</visible>
+				</item>
+				<item id="10">
+					<icon>$INFO[Window.Property(LatestMovie.1.Fanart)]</icon>
+					<label>$INFO[Window.Property(LatestMovie.1.Title)]</label>
+					<onclick>PlayMedia(&quot;$INFO[Window.Property(LatestMovie.1.Path)]&quot;)</onclick>
+					<visible>!IsEmpty(Window.Property(LatestMovie.1.Title))</visible>
+				</item>
+			</content>
+		</control>
+		<control type="list" id="301">
+			<onup>300</onup>
+			<ondown>-</ondown>
+			<onleft>300</onleft>
+			<onright>300</onright>
+			<visible>Container(300).HasFocus(8)</visible>
+			<content>
+				<item id="1">
+					<label>$LOCALIZE[13391] $LOCALIZE[427]</label>
+					<onclick>EjectTray()</onclick>
+					<onclick>Control.Move(300,-1)</onclick>
+					<visible>System.HasMediaDVD</visible>
+				</item>
+			</content>
+		</control>
+		<control type="list" id="301">
+			<onup>300</onup>
+			<ondown>-</ondown>
+			<onleft>300</onleft>
+			<onright>300</onright>
+			<visible>Container(300).HasFocus(10)</visible>
+			<content>
+				<item id="1">
+					<label>$LOCALIZE[31302]</label>
+					<onclick>PlayMedia(&quot;$INFO[Window.Property(RandomEpisode.1.Path)]&quot;)</onclick>
+					<onclick>XBMC.RunScript(script.randomitems,limit=1&amp;albums=False&amp;unplayed=True)</onclick>
+					<visible>!Skin.HasSetting(HidePlayRandomEpisode)</visible>
+				</item>
+				<item id="2">
+					<label>$LOCALIZE[31173]</label>
+					<onclick>ActivateWindow(Videos,recentlyaddedepisodes,return)</onclick>
+					<visible>!Skin.HasSetting(HideNewTV)</visible>
+				</item>
+				<item id="3">
+					<label>$LOCALIZE[135]</label>
+					<onclick>ActivateWindow(Videos,tvshowgenres,return)</onclick>
+					<visible>!Skin.HasSetting(HideNewGenres)</visible>
+				</item>
+				<item id="4">
+					<label>$LOCALIZE[344]</label>
+					<onclick>ActivateWindow(Videos,tvshowactors,return)</onclick>
+					<visible>!Skin.HasSetting(HideNewActors)</visible>
+				</item>
+				<item id="5">
+					<label>$LOCALIZE[345]</label>
+					<onclick>ActivateWindow(Videos,tvshowyears,return)</onclick>
+					<visible>!Skin.HasSetting(HideNewYears)</visible>
+				</item>
+				<item id="6">
+					<label>$LOCALIZE[744]</label>
+					<onclick>ActivateWindow(Videos,Files,return)</onclick>
+					<visible>!Skin.HasSetting(HideNewFiles)</visible>
+				</item>
+				<item id="7">
+					<label>$LOCALIZE[10017]</label>
+					<onclick>ActivateWindow(VideosSettings)</onclick>
+					<visible>!Skin.HasSetting(HideNewSettings)</visible>
+				</item>
+				<item id="8">
+					<label>$INFO[Skin.String(TVShowButtonName_1)]</label>
+					<icon>$INFO[Skin.String(TVShowButtonImage_1)]</icon>
+					<onclick>$INFO[Skin.String(TVShowButtonPath_1)]</onclick>
+					<visible>Skin.HasSetting(TVShowButton_1) + !IsEmpty(Skin.String(TVShowButtonName_1))</visible>
+				</item>
+				<item id="9">
+					<label>$INFO[Skin.String(TVShowButtonName_2)]</label>
+					<icon>$INFO[Skin.String(TVShowButtonImage_2)]</icon>
+					<onclick>$INFO[Skin.String(TVShowButtonPath_2)]</onclick>
+					<visible>Skin.HasSetting(TVShowButton_2) + !IsEmpty(Skin.String(TVShowButtonName_2))</visible>
+				</item>
+				<item id="10">
+					<label>$INFO[Skin.String(TVShowButtonName_3)]</label>
+					<icon>$INFO[Skin.String(TVShowButtonImage_3)]</icon>
+					<onclick>$INFO[Skin.String(TVShowButtonPath_3)]</onclick>
+					<visible>Skin.HasSetting(TVShowButton_3) + !IsEmpty(Skin.String(TVShowButtonName_3))</visible>
+				</item>
+				<item id="11">
+					<label>$INFO[Skin.String(TVShowButtonName_4)]</label>
+					<icon>$INFO[Skin.String(TVShowButtonImage_4)]</icon>
+					<onclick>$INFO[Skin.String(TVShowButtonPath_4)]</onclick>
+					<visible>Skin.HasSetting(TVShowButton_4) + !IsEmpty(Skin.String(TVShowButtonName_4))</visible>
+				</item>
+				<item id="12">
+					<label>$INFO[Skin.String(TVShowButtonName_5)]</label>
+					<icon>$INFO[Skin.String(TVShowButtonImage_5)]</icon>
+					<onclick>$INFO[Skin.String(TVShowButtonPath_5)]</onclick>
+					<visible>Skin.HasSetting(TVShowButton_5) + !IsEmpty(Skin.String(TVShowButtonName_5))</visible>
+				</item>
+				<item id="13">
+					<label>$INFO[Skin.String(TVShowButtonName_6)]</label>
+					<icon>$INFO[Skin.String(TVShowButtonImage_6)]</icon>
+					<onclick>$INFO[Skin.String(TVShowButtonPath_6)]</onclick>
+					<visible>Skin.HasSetting(TVShowButton_6) + !IsEmpty(Skin.String(TVShowButtonName_6))</visible>
+				</item>
+			</content>
+		</control>
+		<control type="list" id="302">
+			<onup>-</onup>
+			<ondown>300</ondown>
+			<onleft>300</onleft>
+			<onright>300</onright>
+			<visible>Container(300).HasFocus(10)</visible>
+			<content>
+				<item id="1">
+					<icon>$INFO[Window.Property(LatestEpisode.10.Thumb)]</icon>
+					<label>$INFO[Window.Property(LatestEpisode.10.ShowTitle)]$INFO[Window.Property(LatestEpisode.10.EpisodeNo), - ]</label>
+					<onclick>PlayMedia(&quot;$INFO[Window.Property(LatestEpisode.10.Path)]&quot;)</onclick>
+					<visible>!IsEmpty(Window.Property(LatestEpisode.10.EpisodeNo))</visible>
+				</item>
+				<item id="2">
+					<icon>$INFO[Window.Property(LatestEpisode.9.Thumb)]</icon>
+					<label>$INFO[Window.Property(LatestEpisode.9.ShowTitle)]$INFO[Window.Property(LatestEpisode.9.EpisodeNo), - ]</label>
+					<onclick>PlayMedia(&quot;$INFO[Window.Property(LatestEpisode.9.Path)]&quot;)</onclick>
+					<visible>!IsEmpty(Window.Property(LatestEpisode.9.EpisodeNo))</visible>
+				</item>
+				<item id="3">
+					<icon>$INFO[Window.Property(LatestEpisode.8.Thumb)]</icon>
+					<label>$INFO[Window.Property(LatestEpisode.8.ShowTitle)]$INFO[Window.Property(LatestEpisode.8.EpisodeNo), - ]</label>
+					<onclick>PlayMedia(&quot;$INFO[Window.Property(LatestEpisode.8.Path)]&quot;)</onclick>
+					<visible>!IsEmpty(Window.Property(LatestEpisode.8.EpisodeNo))</visible>
+				</item>
+				<item id="4">
+					<icon>$INFO[Window.Property(LatestEpisode.7.Thumb)]</icon>
+					<label>$INFO[Window.Property(LatestEpisode.7.ShowTitle)]$INFO[Window.Property(LatestEpisode.7.EpisodeNo), - ]</label>
+					<onclick>PlayMedia(&quot;$INFO[Window.Property(LatestEpisode.7.Path)]&quot;)</onclick>
+					<visible>!IsEmpty(Window.Property(LatestEpisode.7.EpisodeNo))</visible>
+				</item>
+				<item id="5">
+					<icon>$INFO[Window.Property(LatestEpisode.6.Thumb)]</icon>
+					<label>$INFO[Window.Property(LatestEpisode.6.ShowTitle)]$INFO[Window.Property(LatestEpisode.6.EpisodeNo), - ]</label>
+					<onclick>PlayMedia(&quot;$INFO[Window.Property(LatestEpisode.6.Path)]&quot;)</onclick>
+					<visible>!IsEmpty(Window.Property(LatestEpisode.6.EpisodeNo))</visible>
+				</item>
+				<item id="6">
+					<icon>$INFO[Window.Property(LatestEpisode.5.Thumb)]</icon>
+					<label>$INFO[Window.Property(LatestEpisode.5.ShowTitle)]$INFO[Window.Property(LatestEpisode.5.EpisodeNo), - ]</label>
+					<onclick>PlayMedia(&quot;$INFO[Window.Property(LatestEpisode.5.Path)]&quot;)</onclick>
+					<visible>!IsEmpty(Window.Property(LatestEpisode.5.EpisodeNo))</visible>
+				</item>
+				<item id="7">
+					<icon>$INFO[Window.Property(LatestEpisode.4.Thumb)]</icon>
+					<label>$INFO[Window.Property(LatestEpisode.4.ShowTitle)]$INFO[Window.Property(LatestEpisode.4.EpisodeNo), - ]</label>
+					<onclick>PlayMedia(&quot;$INFO[Window.Property(LatestEpisode.4.Path)]&quot;)</onclick>
+					<visible>!IsEmpty(Window.Property(LatestEpisode.4.EpisodeNo))</visible>
+				</item>
+				<item id="8">
+					<icon>$INFO[Window.Property(LatestEpisode.3.Thumb)]</icon>
+					<label>$INFO[Window.Property(LatestEpisode.3.ShowTitle)]$INFO[Window.Property(LatestEpisode.3.EpisodeNo), - ]</label>
+					<onclick>PlayMedia(&quot;$INFO[Window.Property(LatestEpisode.3.Path)]&quot;)</onclick>
+					<visible>!IsEmpty(Window.Property(LatestEpisode.3.EpisodeNo))</visible>
+				</item>
+				<item id="9">
+					<icon>$INFO[Window.Property(LatestEpisode.2.Thumb)]</icon>
+					<label>$INFO[Window.Property(LatestEpisode.2.ShowTitle)]$INFO[Window.Property(LatestEpisode.2.EpisodeNo), - ]</label>
+					<onclick>PlayMedia(&quot;$INFO[Window.Property(LatestEpisode.2.Path)]&quot;)</onclick>
+					<visible>!IsEmpty(Window.Property(LatestEpisode.2.EpisodeNo))</visible>
+				</item>
+				<item id="10">
+					<icon>$INFO[Window.Property(LatestEpisode.1.Thumb)]</icon>
+					<label>$INFO[Window.Property(LatestEpisode.1.ShowTitle)]$INFO[Window.Property(LatestEpisode.1.EpisodeNo), - ]</label>
+					<onclick>PlayMedia(&quot;$INFO[Window.Property(LatestEpisode.1.Path)]&quot;)</onclick>
+					<visible>!IsEmpty(Window.Property(LatestEpisode.1.EpisodeNo))</visible>
+				</item>
+			</content>
+		</control>
+		<control type="list" id="301">
+			<onup>300</onup>
+			<ondown>-</ondown>
+			<onleft>300</onleft>
+			<onright>300</onright>
+			<visible>Container(300).HasFocus(12)</visible>
+			<content>
+				<item id="1">
+					<label>$LOCALIZE[1039]</label>
+					<onclick>ActivateWindow(Pictures,Addons,return)</onclick>
+					<visible>!Skin.HasSetting(HidePictureAddons)</visible>
+				</item>
+				<item id="2">
+					<label>$LOCALIZE[10012]</label>
+					<onclick>ActivateWindow(PicturesSettings)</onclick>
+					<visible>!Skin.HasSetting(HidePictureSettings)</visible>
+				</item>
+				<item id="3">
+					<label>$INFO[Skin.String(PictureButtonName_1)]</label>
+					<icon>$INFO[Skin.String(PictureButtonImage_1)]</icon>
+					<onclick>$INFO[Skin.String(PictureButtonPath_1)]</onclick>
+					<visible>Skin.HasSetting(PictureButton_1) + !IsEmpty(Skin.String(PictureButtonName_1))</visible>
+				</item>
+				<item id="4">
+					<label>$INFO[Skin.String(PictureButtonName_2)]</label>
+					<icon>$INFO[Skin.String(PictureButtonImage_2)]</icon>
+					<onclick>$INFO[Skin.String(PictureButtonPath_2)]</onclick>
+					<visible>Skin.HasSetting(PictureButton_2) + !IsEmpty(Skin.String(PictureButtonName_2))</visible>
+				</item>
+				<item id="5">
+					<label>$INFO[Skin.String(PictureButtonName_3)]</label>
+					<icon>$INFO[Skin.String(PictureButtonImage_3)]</icon>
+					<onclick>$INFO[Skin.String(PictureButtonPath_3)]</onclick>
+					<visible>Skin.HasSetting(PictureButton_3) + !IsEmpty(Skin.String(PictureButtonName_3))</visible>
+				</item>
+				<item id="6">
+					<label>$INFO[Skin.String(PictureButtonName_4)]</label>
+					<icon>$INFO[Skin.String(PictureButtonImage_4)]</icon>
+					<onclick>$INFO[Skin.String(PictureButtonPath_4)]</onclick>
+					<visible>Skin.HasSetting(PictureButton_4) + !IsEmpty(Skin.String(PictureButtonName_4))</visible>
+				</item>
+				<item id="7">
+					<label>$INFO[Skin.String(PictureButtonName_5)]</label>
+					<icon>$INFO[Skin.String(PictureButtonImage_5)]</icon>
+					<onclick>$INFO[Skin.String(PictureButtonPath_5)]</onclick>
+					<visible>Skin.HasSetting(PictureButton_5) + !IsEmpty(Skin.String(PictureButtonName_5))</visible>
+				</item>
+				<item id="8">
+					<label>$INFO[Skin.String(PictureButtonName_6)]</label>
+					<icon>$INFO[Skin.String(PictureButtonImage_6)]</icon>
+					<onclick>$INFO[Skin.String(PictureButtonPath_6)]</onclick>
+					<visible>Skin.HasSetting(PictureButton_6) + !IsEmpty(Skin.String(PictureButtonName_6))</visible>
+				</item>
+			</content>
+		</control>
+		<control type="list" id="301">
+			<onup>300</onup>
+			<ondown>-</ondown>
+			<onleft>300</onleft>
+			<onright>300</onright>
+			<visible>Container(300).HasFocus(14)</visible>
+			<content>
+				<item id="1">
+					<icon>$INFO[Window(Weather).Property(Day1.FanartCode)]</icon>
+					<label>$INFO[Window(Weather).Property(Day1.Title)] $INFO[Window(Weather).Property(Day1.HighTemp)]$INFO[System.TemperatureUnits]</label>
+					<onclick>ActivateWindow(weather)</onclick>
+					<visible>!Skin.HasSetting(HideDay1)</visible>
+				</item>
+				<item id="2">
+					<icon>$INFO[Window(Weather).Property(Day2.FanartCode)]</icon>
+					<label>$INFO[Window(Weather).Property(Day2.Title)] $INFO[Window(Weather).Property(Day2.HighTemp)]$INFO[System.TemperatureUnits]</label>
+					<onclick>ActivateWindow(weather)</onclick>
+					<visible>!Skin.HasSetting(HideDay2)</visible>
+				</item>
+				<item id="3">
+					<icon>$INFO[Window(Weather).Property(Day3.FanartCode)]</icon>
+					<label>$INFO[Window(Weather).Property(Day3.Title)] $INFO[Window(Weather).Property(Day3.HighTemp)]$INFO[System.TemperatureUnits]</label>
+					<onclick>ActivateWindow(weather)</onclick>
+					<visible>!Skin.HasSetting(HideDay3)</visible>
+				</item>
+				<item id="4">
+					<label>$LOCALIZE[10014]</label>
+					<onclick>ActivateWindow(WeatherSettings)</onclick>
+					<visible>!Skin.HasSetting(HideWeatherSettings)</visible>
+				</item>
+				<item id="5">
+					<label>$INFO[Skin.String(WeatherButtonName_1)]</label>
+					<icon>$INFO[Skin.String(WeatherButtonImage_1)]</icon>
+					<onclick>$INFO[Skin.String(WeatherButtonPath_1)]</onclick>
+					<visible>Skin.HasSetting(WeatherButton_1) + !IsEmpty(Skin.String(WeatherButtonName_1))</visible>
+				</item>
+				<item id="6">
+					<label>$INFO[Skin.String(WeatherButtonName_2)]</label>
+					<icon>$INFO[Skin.String(WeatherButtonImage_2)]</icon>
+					<onclick>$INFO[Skin.String(WeatherButtonPath_2)]</onclick>
+					<visible>Skin.HasSetting(WeatherButton_2) + !IsEmpty(Skin.String(WeatherButtonName_2))</visible>
+				</item>
+				<item id="7">
+					<label>$INFO[Skin.String(WeatherButtonName_3)]</label>
+					<icon>$INFO[Skin.String(WeatherButtonImage_3)]</icon>
+					<onclick>$INFO[Skin.String(WeatherButtonPath_3)]</onclick>
+					<visible>Skin.HasSetting(WeatherButton_3) + !IsEmpty(Skin.String(WeatherButtonName_3))</visible>
+				</item>
+				<item id="8">
+					<label>$INFO[Skin.String(WeatherButtonName_4)]</label>
+					<icon>$INFO[Skin.String(WeatherButtonImage_4)]</icon>
+					<onclick>$INFO[Skin.String(WeatherButtonPath_4)]</onclick>
+					<visible>Skin.HasSetting(WeatherButton_4) + !IsEmpty(Skin.String(WeatherButtonName_4))</visible>
+				</item>
+				<item id="9">
+					<label>$INFO[Skin.String(WeatherButtonName_5)]</label>
+					<icon>$INFO[Skin.String(WeatherButtonImage_5)]</icon>
+					<onclick>$INFO[Skin.String(WeatherButtonPath_5)]</onclick>
+					<visible>Skin.HasSetting(WeatherButton_5) + !IsEmpty(Skin.String(WeatherButtonName_5))</visible>
+				</item>
+				<item id="10">
+					<label>$INFO[Skin.String(WeatherButtonName_6)]</label>
+					<icon>$INFO[Skin.String(WeatherButtonImage_6)]</icon>
+					<onclick>$INFO[Skin.String(WeatherButtonPath_6)]</onclick>
+					<visible>Skin.HasSetting(WeatherButton_6) + !IsEmpty(Skin.String(WeatherButtonName_6))</visible>
+				</item>
+			</content>
+		</control>
+		<control type="list" id="301">
+			<onup>300</onup>
+			<ondown>-</ondown>
+			<onleft>300</onleft>
+			<onright>300</onright>
+			<visible>Container(300).HasFocus(16)</visible>
+			<content>
+				<item id="10">
+					<include>SettingsLabel</include>
+					<label>20046</label>
+					<altlabel>20045</altlabel>
+					<onclick>xbmc.mastermode</onclick>
+					<visible>System.HasLocks</visible>
+				</item>
+				<item id="11">
+					<label>$LOCALIZE[20126] $INFO[system.profilename]</label>
+					<onclick>dialog.close(all,true)</onclick>
+					<onclick>System.LogOff</onclick>
+					<visible>System.HasLoginScreen</visible>
+					<visible>System.Loggedon</visible>
+				</item>
+				<item id="1">
+					<label>$LOCALIZE[13012]</label>
+					<onclick>Quit()</onclick>
+					<visible>!Skin.HasSetting(HideQuit)</visible>
+				</item>
+				<item id="2">
+					<label>$LOCALIZE[13005]</label>
+					<onclick>Shutdown()</onclick>
+					<visible>!Skin.HasSetting(HideShutdown)</visible>
+				</item>
+				<item id="3">
+					<label>$LOCALIZE[13013]</label>
+					<onclick>Reset()</onclick>
+					<visible>System.CanReboot</visible>
+					<visible>!Skin.HasSetting(HideReboot)</visible>
+				</item>
+				<item id="4">
+					<label>$LOCALIZE[13011]</label>
+					<onclick>Suspend()</onclick>
+					<visible>System.CanSuspend</visible>
+					<visible>!Skin.HasSetting(HideSuspend)</visible>
+				</item>
+				<item id="5">
+					<label>$LOCALIZE[13010]</label>
+					<onclick>Hibernate()</onclick>
+					<visible>System.CanHibernate</visible>
+					<visible>!Skin.HasSetting(HideHibernate)</visible>
+				</item>
+				<item id="6">
+					<label>$LOCALIZE[20126]</label>
+					<onclick>System.LogOff</onclick>
+					<visible>System.HasLoginScreen</visible>
+					<visible>!Skin.HasSetting(HideLogoff)</visible>
+				</item>
+				<item id="7">
+					<label>$LOCALIZE[130]</label>
+					<onclick>ActivateWindow(systeminfo)</onclick>
+					<visible>!Skin.HasSetting(HideInfo)</visible>
+				</item>
+				<item id="8">
+					<label>$LOCALIZE[10034]</label>
+					<onclick>ActivateWindow(Profiles)</onclick>
+					<visible>!Skin.HasSetting(HideProfiles)</visible>
+				</item>
+				<item id="9">
+					<label>$LOCALIZE[7]</label>
+					<onclick>ActivateWindow(filemanager)</onclick>
+					<visible>!Skin.HasSetting(HideFilemanager)</visible>
+				</item>
+			</content>
+		</control>
+		<control type="button" id="301">
+			<include>HiddenButton</include>
+			<onfocus>Control.SetFocus(300)</onfocus>
+		</control>
+		<control type="button" id="302">
+			<include>HiddenButton</include>
+			<onfocus>Control.SetFocus(300)</onfocus>
+		</control>	
+
+	</include>
+</includes>

@@ -1,0 +1,151 @@
+﻿<window id="2">
+	<views>505,55,59,500,506</views>
+	<defaultcontrol>505</defaultcontrol>
+	<allowoverlay>yes</allowoverlay>
+	<controls>
+		<include>Global_Background</include>
+		<control type="image" id="668">
+			<include>Dimensions_Fullscreen</include>
+			<texture background="true">$INFO[listitem.filenameandpath]</texture>
+			<colordiffuse>PicturesDiffuse</colordiffuse>
+			<fadetime>400</fadetime>
+			<aspectratio aligny="top">scale</aspectratio>
+			<visible>[Control.IsVisible(500) | Control.IsVisible(55) | Control.IsVisible(59) | Control.IsVisible(505)] + [substring(listitem.filenameandpath,jpg) | substring(listitem.filenameandpath,bmp) | substring(listitem.filenameandpath,png) | substring(listitem.filenameandpath,tif) | substring(listitem.filenameandpath,ico) | substring(listitem.filenameandpath,pcx) | substring(listitem.filenameandpath,tga)]</visible>
+			<include>Animation_BackdropFade</include>
+		</control>
+		<include condition="Skin.HasSetting(BackgroundVis) | Skin.HasSetting(BackgroundVid)">BackgroundVisuals</include>
+		<include>Viewtype_Files</include>
+		<include>Viewtype_PictureGrid</include>
+		<include>Viewtype_Panel_Wide</include>
+		<include>Viewtype_Info_List</include>
+		<include>Viewtype_Square_Wall</include>
+		<include>Global_ContextFilter</include>
+		<control type="grouplist" id="7000">
+			<include>WindowMenuVars_5</include>
+			<posy>330</posy>
+			<control type="button" id="20">
+				<label>-</label>
+				<onclick>Container.NextViewMode</onclick>
+				<animation type="conditional" condition="!ControlGroup(7000).HasFocus(20)">
+					<effect type="zoom" center="100,0" start="100" end="70" time="200" tween="cubic" easing="in" />
+					<effect type="fade" start="100" end="50" time="200" />
+				</animation>
+			</control>
+			<control type="label" id="7200">
+				<label>$INFO[Container.ViewMode]</label>
+				<include>WindowMenuButton</include>
+				<animation type="conditional" condition="!ControlGroup(7000).HasFocus(20)">
+					<effect type="zoom" center="100,0" start="100" end="70" time="200" tween="cubic" easing="in" />
+					<effect type="fade" start="100" end="50" time="200" />
+				</animation>
+			</control>
+			<control type="button" id="3">
+				<label>-</label>
+				<font>-</font>
+				<animation type="conditional" condition="!ControlGroup(7000).HasFocus(3)">
+					<effect type="zoom" center="100,0" start="100" end="70" time="200" tween="cubic" easing="in" />
+					<effect type="fade" start="100" end="50" time="200" />
+				</animation>
+			</control>
+			<include>SortByLabels</include>
+			<control type="button" id="21">
+				<include>WindowMenuButton</include>
+				<include condition="![Skin.HasSetting(picturegrid4x3) | Skin.HasSetting(picturegrid7x1) | Skin.HasSetting(picturegrid7x2)]">PictureGrid2x4Button</include>
+				<include condition="Skin.HasSetting(picturegrid4x3)">PictureGrid4x3Button</include>
+				<include condition="Skin.HasSetting(picturegrid7x1)">PictureGrid7x1Button</include>
+				<include condition="Skin.HasSetting(picturegrid7x2)">PictureGrid7x2Button</include>
+				<onclick>ReloadSkin()</onclick>
+				<onclick>SetFocus(500)</onclick>
+				<animation type="conditional" condition="!ControlGroup(7000).HasFocus(21)">
+					<effect type="zoom" center="100,0" start="100" end="70" time="200" tween="cubic" easing="in" />
+					<effect type="fade" start="100" end="50" time="200" />
+				</animation>
+				<enable>Control.IsVisible(500)</enable>
+			</control>
+			<control type="button" id="6">
+				<visible>!ListItem.IsFolder</visible>
+				<include>WindowMenuButton</include>
+				<label>$LOCALIZE[108]</label>
+				<animation type="conditional" condition="!ControlGroup(7000).HasFocus(6)">
+					<effect type="zoom" center="100,0" start="100" end="70" time="200" tween="cubic" easing="in" />
+					<effect type="fade" start="100" end="50" time="200" />
+				</animation>
+			</control>
+			<control type="button" id="7">
+				<visible>ListItem.IsFolder</visible>
+				<include>WindowMenuButton</include>
+				<label>$LOCALIZE[108]</label>
+				<animation type="conditional" condition="!ControlGroup(7000).HasFocus(7)">
+					<effect type="zoom" center="100,0" start="100" end="70" time="200" tween="cubic" easing="in" />
+					<effect type="fade" start="100" end="50" time="200" />
+				</animation>
+			</control>
+			<control type="button" id="9">
+				<include>WindowMenuButton</include>
+				<label>$LOCALIZE[31182]</label>
+				<animation type="conditional" condition="!ControlGroup(7000).HasFocus(9)">
+					<effect type="zoom" center="100,0" start="100" end="70" time="200" tween="cubic" easing="in" />
+					<effect type="fade" start="100" end="50" time="200" />
+				</animation>
+			</control>
+		</control>
+		<control type="grouplist">
+			<include>WindowMenuVars_5</include>
+			<posy>305</posy>
+			<control type="button" id="40">
+				<include>WindowMenuLabel</include>
+				<label>$LOCALIZE[31183]</label>
+				<animation type="conditional" condition="!ControlGroup(7000).HasFocus(20)">
+					<effect type="zoom" center="100,30" start="100" end="70" time="200" tween="cubic" easing="in" />
+					<effect type="fade" start="100" end="50" time="200" />
+				</animation>
+			</control>
+			<control type="button" id="41">
+				<include>WindowMenuLabel</include>
+				<label>$LOCALIZE[31184]</label>
+				<animation type="conditional" condition="!ControlGroup(7000).HasFocus(3)">
+					<effect type="zoom" center="100,30" start="100" end="70" time="200" tween="cubic" easing="in" />
+					<effect type="fade" start="100" end="50" time="200" />
+				</animation>
+			</control>
+			<control type="button" id="42">
+				<include>WindowMenuLabel</include>
+				<label>$LOCALIZE[31194]</label>
+				<animation type="conditional" condition="!ControlGroup(7000).HasFocus(21)">
+					<effect type="zoom" center="100,30" start="100" end="70" time="200" tween="cubic" easing="in" />
+					<effect type="fade" start="100" end="50" time="200" />
+				</animation>
+			</control>
+			<control type="button" id="43">
+				<visible>!ListItem.IsFolder</visible>
+				<include>WindowMenuLabel</include>
+				<label>$LOCALIZE[31195]</label>
+				<animation type="conditional" condition="!ControlGroup(7000).HasFocus(6)">
+					<effect type="zoom" center="100,30" start="100" end="70" time="200" tween="cubic" easing="in" />
+					<effect type="fade" start="100" end="50" time="200" />
+				</animation>
+			</control>
+			<control type="button" id="43">
+				<visible>ListItem.IsFolder</visible>
+				<include>WindowMenuLabel</include>
+				<label>$LOCALIZE[31195]</label>
+				<animation type="conditional" condition="!ControlGroup(7000).HasFocus(7)">
+					<effect type="zoom" center="100,30" start="100" end="70" time="200" tween="cubic" easing="in" />
+					<effect type="fade" start="100" end="50" time="200" />
+				</animation>
+			</control>
+			<control type="button" id="44">
+				<include>WindowMenuLabel</include>
+				<label>$LOCALIZE[31187]</label>
+				<animation type="conditional" condition="!ControlGroup(7000).HasFocus(9)">
+					<effect type="zoom" center="100,30" start="100" end="70" time="200" tween="cubic" easing="in" />
+					<effect type="fade" start="100" end="50" time="200" />
+				</animation>
+			</control>
+		</control>
+		<include>Global_Time</include>
+		<include>Global_Heading</include>
+		<include condition="Skin.HasSetting(DebugGrid)">Object_DebugGrid</include>
+		<include condition="Skin.HasSetting(DebugMode)">Debug</include>
+	</controls>
+</window>

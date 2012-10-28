@@ -1,0 +1,142 @@
+<colors>
+
+	<!-- Background/Dialog colours -->
+	
+	<color name="FanartDiffuse">3237485C</color> <!-- Fullscreen Fanart background colour and transparency-->
+	<color name="PicturesDiffuse">5237485C</color> <!-- Fullscreen Picture background colour and transparency-->
+	<color name="VisualiserDiffuse">cb37485C</color> <!-- Background Visualiser colour and transparency-->
+	<color name="DialogBackgroundColour">FF37485C</color> <!-- dialogback.png colour and transparency -->
+	<color name="GlobalColour">FF37485C</color> <!-- background.png colour - dont change transparency -->
+	<color name="GlobalContextColour">4837485C</color> <!-- Context Menu colour and transparency -->
+	<color name="MusicWallVignetteColour">FF37485C</color> <!-- musicwall_vignette.png colour and transparency -->
+
+	<!-- Global colours -->
+
+	<color name="Time">FFD9D7AD</color>
+	<color name="Date">FFD9D7AD</color>
+	<color name="GlobalHeading">FFD9D7AD</color>
+	<color name="GlobalHeadingDetails">FFD9D7AD</color>
+	<color name="GlobalDialog">FFD9D7AD</color>
+	<color name="GlobalDialogDetails">FFD9D7AD</color>
+	<color name="WeatherDetails">FFD9D7AD</color>
+	
+	<color name="TimeAMPM">FF91A685</color>
+
+	<color name="RSSBody">FF91A685</color>
+	<color name="RSSHighlight">FF91A685</color>
+	<color name="RSSHeadline">FF91A685</color>
+	<color name="RSSTitle">FF91A685</color>
+	
+	<color name="NowPlayingTitle">FFD9D7AD</color>
+	<color name="NowPlayingDetails1">FFCF6215</color>
+	<color name="NowPlayingDetails2">FFD9D7AD</color>
+
+	<color name="NowPlayingWindowFocus">FF1C232E</color>
+	
+	<color name="TextDisabled">FF8A886D</color>
+	<color name="TextSelected">FFD9D7AD</color>
+	
+	<color name="MediaFlagsDiffuse">FFD9D7AD</color>
+
+	<color name="MenuValue">FFD9D7AD</color>
+	
+	<color name="ShadowColour">FF000000</color>
+	
+	<color name="Clear">00FFFFFF</color> <!-- dont change -->
+	
+	<!-- Home Colours -->	
+	
+	<color name="HomeWindowFrameColor">FF1C232E</color>
+	<color name="HomeWindowTextColour">FFD9D7AD</color>
+	<color name="HomeWindowTextBackgroundColour">FF37485C</color>
+	<color name="HomeWindowShadeColor">FFFFFFFF</color>
+
+	<color name="HomeIconLabel">381C232E</color>
+	
+	<color name="HomeListLabel">FF1C232E</color>
+
+	<!-- Colour of Text seen on listfocus.png, ButtonFO.png and ListButtonFo.png -->
+	
+	<color name="ButtonText">FFD9D7AD</color>
+
+	<!-- Poster view colours -->
+
+	<color name="PosterTitle">FFCF6215</color>
+
+	<!-- Episode view colours -->
+
+	<color name="EpisodeLabelF">FFCF6215</color>
+	<color name="EpisodePlot">FFD9D7AD</color>
+	<color name="EpisodeNumber">FFD9D7AD</color>
+	<color name="EpisodeTitle">FFD9D7AD</color>
+	<color name="EpisodeRecent">FF8A886D</color>
+
+	<!-- Info dialog colours -->
+
+	<color name="InfoPlot">B9D9D7AD</color>
+	<color name="InfoYear">B9D9D7AD</color>
+	<color name="InfoDetails">B9D9D7AD</color>
+	<color name="MovieInfoLines">888A886D</color>
+
+	<!-- Progress colours -->
+
+	<color name="ProgressDialog">FFD9D7AD</color>
+	<color name="ProgressFilterColor">FFCF6215</color>
+	<color name="ProgressDialogBack">FF37485C</color>
+
+	<!-- Settings colours -->	
+	
+	<color name="SettingsHeading">abD9D7AD</color>
+	<color name="SettingsDetail">FFD9D7AD</color>
+	<color name="SettingsIconDiffuse">5EFFFFFF</color>
+	<color name="SettingsLine">888A886D</color>
+
+	<!-- List colours -->
+
+	<color name="ListTrackNF">FFD9D7AD</color>
+	<color name="ListTitleNF">CCD9D7AD</color>
+	<color name="ListTrackF">FFCF6215</color>
+	<color name="ListTitleF">FFD9D7AD</color>
+
+	<!-- Landscape colours -->
+
+	<color name="LandscapeTitle">FFCF6215</color>
+	<color name="LandscapeLabel">FFD9D7AD</color>
+	<color name="LandscapeInfo">FFD9D7AD</color>
+
+	<!-- Fanart view colours -->
+
+	<color name="FanartTitleReverse">FFD9D7AD</color>
+	<color name="FanartPlot">FFD9D7AD</color>
+
+	<!-- OSD colours -->
+
+	<color name="OSDProgress">FFCF6215</color>
+	<color name="OSDTime">FFCF6215</color>
+	<color name="OSDTitle">FFD9D7AD</color>
+	<color name="OSDInfo">FFD9D7AD</color>
+	
+	<!-- Files colours -->
+
+	<color name="FilesLabel">FF8A886D</color>
+	
+	<!-- Diffuse colour of non-focused items -->
+	
+	<color name="LandscapeDiffuse">89FFFFFF</color>
+	<color name="MusicWallDiffuse">48FFFFFF</color>
+	<color name="PanelDiffuse">89FFFFFF</color>
+	<color name="PosterDiffuse">89FFFFFF</color>
+	<color name="LovefilmEpisodeDiffuse">89FFFFFF</color>
+	
+	<!-- Matte colours of above items -->
+
+	<color name="MatteDiffuse">8937485C</color>
+	
+	<!-- LoveFilm Colours -->
+
+	<color name="LoveFilmOverlay">1c232e</color> <!-- RatingVotesOverlay (must be the same colour as thumb_border.png) -->
+	<color name="LoveFilmTitle">FFCF6215</color>
+	<color name="LoveFilmInfo">FFD9D7AD</color>
+	<color name="LoveFilmStarRating">FFD9D7AD</color>
+	
+</colors>

@@ -1,0 +1,844 @@
+﻿PLEASE NOTE - 3.0.2 requires nightly build 18/4/2011 onwards
+
+[B]3.0.10[/B]
+
+Fixed: Logo image problem
+
+[B]3.0.9[/B]
+
+Updated: Revision to stop updating error
+
+[B]3.0.8[/B]
+
+Updated: xbmc.gui version to 3.00
+
+[B]3.0.7[/B]
+
+Added: Artist 'Genre' and 'biography' to Panel Info
+Added: 'hd tv' string to media flagging (SickBeard compatible)
+Changed: Cleaned up image borders/overlays for default icons 
+
+[B]3.0.6[/B]
+
+Fixed: Hide New Movies submenu problem
+
+[B]3.0.5[/B]
+
+Updated: Studio flags
+
+[B]3.0.4[/B]
+
+Added: 'New' icon for 10 recently added Movies and Episodes
+
+[B]3.0.3[/B]
+
+Changed: Removed Multi image control for custom background
+
+[B]3.0.2[/B]
+
+Updated: Recently Added items now that they're available from XBMC without scripts
+
+[B]3.0.1[/B]
+
+Updated: Audio flags
+
+[B]3.0.0[/B]
+
+Added: Artist tag to Music Videos in Info List
+
+[B]2.9.9[/B]
+
+Added: pcm.png audio flag
+
+[B]2.9.8[/B]
+
+Fixed: Background image folder setting for Icon and List Home styles
+
+[B]2.9.7[/B]
+
+Fixed: Custom home item images when using custom default home items problem
+
+[B]2.9.6[/B]
+
+Added: Artist name to Panel Square viewtype
+Changed: Panel Square viewtype available for Artists
+
+[B]2.9.5[/B]
+
+Fixed: Launching custom favourite/playlist home items problem
+
+[B]2.9.4[/B]
+
+Fixed: Launching custom home items problem
+
+[B]2.9.3[/B]
+
+Updated: addon.xml requirements
+
+[B]2.9.2[/B]
+
+Removed: <minversion app="xbmc"></minversion> tag from addon.xml
+
+[B]2.9.1[/B]
+
+Fixed: Custom 'Home Items' options for all layouts
+Changed: Renamed dts_ma.png to dtshd_ma.png
+Updated: Caelatum theme (thanks to WheresWaldo)
+
+[B]2.9.0[/B]
+
+Removed: MyVideo.xml
+Changed: Updated Video library and file mode references
+Changed: Video debug info font
+Changed: Localised 'mins' label
+Changed: Info List button texture
+Added: Night theme (thanks to liquidskin76)
+Added: Delay to Play icon in video info
+
+[B]2.8.9[/B]
+
+Added: 'FanartPlot' and 'LoveFilmStarRating' for more customisation
+Fixed: LoveFilm Star Rating (10.0) alignment problem
+
+[B]2.8.8[/B]
+
+Removed: Home fallback image
+
+[B]2.8.7[/B]
+
+Removed: Home media totals option
+
+[B]2.8.6[/B]
+
+Updated: German string (thanks to TomPiXX)
+
+[B]2.8.5[/B]
+
+Updated: German string (thanks to TomPiXX)
+
+[B]2.8.4[/B]
+
+Added: Fanart to Programs
+
+[B]2.8.3[/B]
+
+Changed: Slight changes to home screen
+
+[B]2.8.2[/B]
+
+Added: Missing 'hidden button' include
+Updated: Spanish strings (thanks to CyberXaz)
+
+[B]2.8.1[/B]
+
+Fixed: Home 'Music Artist' problem 
+
+[B]2.8.0[/B]
+
+Changed: Complete re-design of Home styles that allow for 7 custom items
+
+[B]2.7.6[/B]
+
+Added: Albums to Music submenu when Artists is used for the main button
+
+[B]2.7.5[/B]
+
+Changed: Separated background visuals (Music and Video)
+
+[B]2.7.4[/B]
+
+Fixed: Genre for Addons
+
+[B]2.7.3[/B]
+
+Updated: Localised 'mins'
+
+[B]2.7.2[/B]
+
+Added: Caelatum theme (thanks to WheresWaldo)
+
+[B]2.7.1[/B]
+
+Fixed: List navigation when returning from video info 
+
+[B]2.7.0[/B]
+
+Fixed: Music Album info lines
+Changed: Aeon theme disabled colour
+
+[B]2.6.9[/B]
+
+Added: Music Videos to Music submenu
+
+[B]2.6.8[/B]
+
+Changed: Display default actor image when enabling 'small images'
+
+[B]2.6.7[/B]
+
+Fixed: Total Episodes for Info List when 'watched are hidden' problem
+
+[B]2.6.6[/B]
+
+Fixed: Info List title length problem
+
+[B]2.6.5[/B]
+
+Fixed: Info List 'no plot' problem
+
+[B]2.6.4[/B]
+
+Fixed: Info List plot problem
+
+[B]2.6.3[/B]
+
+Fixed: Fanart image in Music
+
+[B]2.6.2[/B]
+
+Fixed: Panel Wide and Tall availability
+
+[B]2.6.1[/B]
+
+Fixed: Files viewtype label problem.
+Removed: Un-used MusicOSDVisSettings.xml
+
+[B]2.6.0[/B]
+
+Added: Showcase to Seasons level and fixed repeat cover problem
+Changed: Aeon theme background (thanks to Stranger)
+Fixed: OSD Background dialog colours
+
+[B]2.5.9[/B]
+
+Added: Watched tick for Showcase viewtype
+
+[B]2.5.8[/B]
+
+Added: Aeon based theme
+Updated: Dutch strings (thanks to nistuf)
+Fixed: Dialog label problem due to Defaults.xml
+
+[B]2.5.7[/B]
+
+Fixed: Kiosk mode for Showcase
+Added: Label values to Defaults.xml for Add-ons
+
+[B]2.5.6[/B]
+
+Added: Showcase viewtype
+
+[B]2.5.5[/B]
+
+Added: Watched status for Files and Info List viewtypes when not in Library modes 
+
+[B]2.5.4[/B]
+
+Changed: LoveFilm code to mask the rating text with new texture (thumb_border_for_lovefilm_minus_border.png)
+
+[B]2.5.3[/B]
+
+Fixed: Music Wall diffuse colour
+Changed: Debug text colour to always be white regardless of the colour theme used
+
+[B]2.5.2[/B]
+
+Fixed: No hide animation for Music Info
+
+[B]2.5.1[/B]
+
+Added: Carbon Mesh theme (thanks to WheresWaldo)
+
+[B]2.5.0[/B]
+
+Updated: Korean strings (thanks to epoke)
+
+[B]2.4.9[/B]
+
+Fixed: Music Wall Vignette colours for themes
+Added: Close Video OSSettings by pressing left or right
+
+[B]2.4.8[/B]
+
+Added: Music Wall Vignette colour to all colour schemes
+Changed: Banner non-focused colour labels
+Fixed: Fanart non-focused colour
+
+[B]2.4.7[/B]
+
+Updated: Hide '!' new episodes icon when RandomItems are used
+
+[B]2.4.6[/B]
+
+Changed: Quantic's MenuValue colour
+
+[B]2.4.5[/B]
+
+Changed: LoveFilm view to a fixedlist so it stops at each end
+
+[B]2.4.4[/B]
+
+Fixed: Profile Lock problem
+
+[B]2.4.3[/B]
+
+Added: Quantic theme (thanks to Juanflaco)
+Updated: Themes (thanks to DurhamDev)
+Changed: Widened Star rating number and Episode number label
+Fixed: LoveFilm border texture problem
+Fixed: LoveFilm Next and Previous arrows
+Fixed: TV Tunes/Background visualastion problem
+
+[B]2.4.2[/B]
+
+Updated: Spanish strings (thanks to CyberXaz)
+Fixed: Logo image/label problem with Wide Panel
+
+[B]2.4.1[/B]
+
+Fixed: Vertical scrollbar problem
+
+[B]2.4.0[/B]
+
+Added: Aksala theme (ddlooping)
+Added: Kiosk mode
+Added: '!' icon indicating new episodes are available for TV Shows
+Changed: Durham themes (thanks to DurhamDev)
+
+[B]2.3.8[/B]
+
+Added: More themes (thanks to DurhamDev)
+
+[B]2.3.7[/B]
+
+Added: Apple Movie Trailer support for Home Icon and List views
+Added: More colour tags for background images
+Added: Custom Background image selection
+Changed: Default Home images moved to media folder so they can also be changed for themes
+Fixed: Play Disc if Videos is disabled in default Home Style
+Fixed: Some colour errors
+
+[B]2.3.6[/B]
+
+Added: Durham themes (thanks to DurhamDev)
+Added: LoveFilm Episode viewtype
+Added: Version number to Add-on selection
+Fixed: LoveFilm scroll problem
+Updated: Custom Button settings to add name and image when selecting source
+
+[B]2.3.5[/B]
+
+Upadted: Colour scheme for LoveFilm view
+
+[B]2.3.4[/B]
+
+Added: LoveFilm viewtype
+
+[B]2.3.3[/B]
+
+Added: Playlists to Custom Buttons
+Added: Custom Buttons to Pictures and Weather
+Fixed: Background visualisation on all the time
+Fixed: Background visualisation playing when TvTunes runs
+Added: Scrollbar indicator when fast scrolling through lists
+Updated: Dutch strings.xml (thanks to nistuf)
+
+[B]2.3.2[/B]
+
+Fixed: Forgot to add the image folders to the textures.xbt
+
+[B]2.3.1[/B]
+
+Fixed: Home Icon and List images problem
+
+[B]2.3.0[/B]
+
+Changed: All Home Icons now reside in the media folder but users can still enable their own - easier for themes
+Changed: Recoded global backgrounds and dialogs
+Changed: Added Background.png and removed backgroundcolor tags
+Changed: Home Artwork selection (thanks to Jezz_X for the code)
+Added: Hide TV Shows to default Home Style
+Added: Disable flattening of Library directories to Icon and List Home styles
+Added: Startup Playlist option
+Added: Background Images to Icon View
+Added: Dutch strings.xml (thanks to nistuf)
+Fixed: Now Playing alignment problem
+Updated: Default colour XML and removed unused entries
+
+[B]2.2.4[/B]
+
+Added: Option to use Random Items instead of Recently Added - pending updated script
+Added: Option to use Albums instead of Songs for recently added/random items - pending updated script
+Fixed: Logo/Label problem in Panel views
+Removed: Now Playing window when using Background Visualisation
+Removed: Double entry in Settings
+Updated: Spanish strings.xml (thanks to CyberXaz)
+
+[B]2.2.3[/B]
+
+Updated: Recoded Home default style visible conditions to include conditions to speed things up
+Updated: Alaska Settings to be more user friendly
+Changed: Some texture names for easier modding
+Changed: Some colour names for easier modding
+Added: Option to use large Actor images for Video Info
+Fixed: Home Weather postion when hiding Pictures
+
+[B]2.2.2[/B]
+
+Changed: Home default style hide conditions and added ability to hide Music
+Fixed: Hide Plot for Info List in Episodes
+Fixed: Arrows in Custom Settings typo
+Added: Matte diffuse to colours XML
+
+[B]2.2.1[/B]
+
+Fixed: Fullsceen Video Info alignment problem
+Changed: Original fonts to be default (for this version only)
+
+[B]2.2.0[/B]
+
+Added: Wall Square and Wall Poster viewtypes
+Added: Fanart and Fanart Horizontal viewtypes
+Added: InfoList viewtype
+Added: Media Totals option
+Added: Background visualisation option
+Added: Ability to disable 'Return to Home' for Movies, TV Shows and Music
+Added: List view to Artists
+Added: Option to change default Lyrics and Subtitle scripts
+Added: Option to choose (Plugin) Add-ons as well as (Script) Add-ons to the Apps submenu
+Added: Support for TVTunes Add-on
+Added: 'microsoft' video codec flag
+Added: 'Master Lock' and 'Log off Profile' to the Shutdown menu and the Settings submenu
+Added: Fonts from Unicode version
+Fixed: Fanart/Filter problem
+Fixed: Video OSD Info alignment
+Removed: Lyrics and Subtitle dialogs
+Removed: 'Old Home' style and replaced with current default plus hide conditions
+Changed: Video Info to display Actor images on right of Actors list as most are low quality
+Changed: Watched Status icons
+Changed: Tidied up Video Info image display code
+Updated: Spanish strings (thanks to CyberXaz)
+
+[B]2.1.2[/B]
+
+Added: Reboot to Shutdown menu
+
+[B]2.1.1[/B]
+
+Added: Poster Info viewtype
+Fixed: Add-on Settings labels
+Fixed: Hide Music Files submenu button
+
+[B]2.1.0[/B]
+
+Changed: Separated and cleaned up all viewtypes so they no longer share IDs
+Removed: scrollbarv.png no longer used
+Changed: Video and Music Filters now display the actual filter label
+Added: Karaoke support
+
+[B]2.0.2[/B]
+
+Changed: Fallback label for Weather Temperature 'Highs' and 'Lows'
+
+[B]2.0.1[/B]
+
+Changed: Used fadelabel for Episode title
+
+[B]2.0.0[/B]
+
+Fixed: DTS-HD MA flag
+
+[B]1.9.9[/B]
+
+Added: Automatic 'Cinema Experience' Addon integration to Movie Info
+
+[B]1.9.8[/B]
+
+Added: File Manager to the Settings submenu
+
+[B]1.9.7[/B]
+
+Added: RandomItems script to Skin requirements
+
+[B]1.9.6[/B]
+
+Added: Play Random Movie, Episode or Song buttons to the Home Sub Menus
+
+[B]1.9.5[/B]
+
+Fixed: File mode info slide
+
+[B]1.9.4[/B]
+
+Changed: Background Filter fade animations to 3 separate Filters with visible conditions to allow better theme creation
+
+[B]1.9.3[/B]
+
+Updated: Add-on Setting to include Notifications On/Off
+
+[B]1.9.2[/B]
+
+Fixed: Log off problem (thanks to ronie)
+
+[B]1.9.1[/B]
+
+Added: Music Fanart if Visualisation is set to 'None'
+
+[B]1.9.0[/B]
+
+Changed: Dialogs order of importance
+
+[B]1.8.9[/B]
+
+Changed: Moved any stray colours to the colors default.xml
+
+[B]1.8.8[/B]
+
+Fixed: MPAA Rating label problem
+
+[B]1.8.7[/B]
+
+Changed: Episode date layout format from yyyy-mm-dd to dd/mm/yyyy
+
+[B]1.8.6[/B]
+
+Changed: Duration divider from 'hyphen' to 'bullet' (inspired by Fusion)
+
+[B]1.8.5[/B]
+
+Fixed: 'Apps' string
+
+[B]1.8.4[/B]
+
+Changed: Re-designed Select Dialog to include images for non-focused items
+
+[B]1.8.3[/B]
+
+Updated: Korean language string (thanks to epoke)
+
+[B]1.8.2[/B]
+
+Changed: DialogSelect background less transparent
+
+[B]1.8.2[/B]
+
+Fixed: Language strings errors
+
+[B]1.8.1[/B]
+
+Changed: Label for EPISODE/S depending on number of items
+Changed: Re-positioned Volume Bar when using fullscreen video or visualisation
+
+[B]1.8.0[/B]
+
+Added: MIN/S to Episode view
+Updated: French language string (thanks to Angelscry)
+Fixed: Dolby True HD flag label
+Changed: Position of Volume Bar when using fullscreen video
+
+[B]1.7.9[/B]
+
+Changed: Episode view to include Watched ticks and Duration, and re-aligned
+
+[B]1.7.8[/B]
+
+Added: Missing dialog (DialogNetworkSetup.xml)
+Added: Hidden Weather condition label to Home so it updates every time
+Changed: File browser
+Changed: 'Parent Folder' icon position in Banner view
+Fixed: Episode level Fanart problem
+Removed: Unused and repeated textures
+
+[B]1.7.7[/B]
+
+Updated: Landscape and Banner images can now downloaded automatically using the Logo Downloader (thanks to ppic)
+
+[B]1.7.6[/B]
+
+Fixed: Hide all Media Info for Add-ons
+Changed: Music Overlay default image and removed the border for it
+Changed: Swapped positions of 'Picture Settings' and 'Picture Add-Ons'
+
+[B]1.7.5[/B]
+
+Fixed: 'Music Library' and 'Music Add-Ons' overlap
+Fixed: Missing frame for Pictures Panel view
+Fixed: Banner 'panel Info' overlap problem
+Fixed: Sort Order 'Time' and 'Runtime' problem
+Added: 4.0 audio channel flag
+Updated: French strings.xml (thanks to Angelscry)
+
+[B]1.7.4[/B]
+
+Added: Spanish strings.xml (thanks to CyberXaz)
+Changed: More view modes for Add-Ons
+
+[B]1.7.3[/B]
+
+Changed: Added TV Show Title to 'Recently Added Episodes' list
+
+[B]1.7.2[/B]
+
+Added: Polish language string (thanks to biggiesmallz)
+Updated: French language string (thanks to Angelscry)
+
+[B]1.7.1[/B]
+
+Fixed: Picture sort method problem
+Removed: All unnecessary spaces and EOLs
+
+[B]1.7.0[/B]
+
+Added: Optional 'Banner' and 'Landscape' jpg images
+Added: Option to hide 'IMDB Ratings'
+Changed: 'Hide Media Info' to only include Meta Data
+Changed: Tidied up Skin settings layout and language strings
+
+[B]1.6.1[/B]
+
+Fixed: Playlist 'Shuffle' problem
+Fixed: Weather 'Feels like' problem
+
+[B]1.6.0[/B]
+
+Updated: French string (thanks to Angelscry)
+
+[B]1.5.9[/B]
+
+Added: Watched 'Tick' to File view
+Added: Russian string.xml (thanks to ZakWilde)
+Added: Fallback label for Banner view
+Changed: Home 'Music' button now goes to whatever the user sets
+Changed: Up and Down now closes MusicOSD
+Changed: Tidied up hyphens displaying Singles in Music List
+Changed: Scroll large labels in Poster view
+Changed: Order of buttons for Videos
+Changed: Buttons for Music submenu
+Changed: Home Artwork settings
+Changed: Renumbered and cleaned up String labels
+Changed: MyPics Slideshow buttons dependant on Folder (Recursive) or Files (Normal)
+Changed: Widened the Time
+Updated: Slight tweaks to the Video Info screen
+Updated: Korean string.xml (thanks to epoke)
+Updated: Fonts with cyrillic support (thanks to ZakWilde)
+Removed: All 'Record' references (now defunct)
+Fixed: Star Rating background visibility
+Fixed: Video Info screen Title problem
+
+[B]1.5.8[/B]
+
+Added: Show IMDB Rating as numbers instead of Stars optional
+Added: Studio flags
+Added: French string.xml (thanks to Angelscry)
+Fixed: Missed labels for localisation (AIRED and ITEMS)
+Fixed: Favourites custom button hide condition
+
+[B]1.5.7[/B]
+
+Fixed: Setting custom button label problem
+
+[B]1.5.6[/B]
+
+Added: DVHS and DTheater media source flags
+Added: Auto Thumb support for adding Favourites to custom buttons (requires updated favourites script)
+Changed: Video Info layout (removed CAST button - press UP to access)
+
+[B]1.5.5[/B]
+
+Fixed: Forgot to add the custom_DialogFavourites.xml
+
+[B]1.5.4[/B]
+
+Added: Ability to add up to 6 custom sub menu buttons to Apps, Video, Music, Movies and TV Shows(includes Scripts, Add-Ons and Favourites)
+Added: Movie Set support
+Updated: Picture Info screen (background texture)
+Updated: Video Info screen (MPAA ratings, 'Mins' conditions, button layout)
+Updated: Custom nackdrops settings layout
+Changed: Increased Favourites icon size
+Changed: ListItem.Date to ListItem.Premiered
+Changed: Files View to display Label2 for all non-video library sources
+Removed: All Xbox references
+
+[B]1.4.4[/B]
+
+Changed: MPAA rating handling
+
+[B]1.4.3[/B]
+
+Fixed: Version problem
+
+[B]1.4.2[/B]
+
+Fixed: Font problem
+
+[B]1.4.1[/B]
+
+Added: Korean language string (thanks to epoke)
+
+[B]1.4.0[/B]
+
+Fixed: Focus of Cast list on Video Information window
+
+[B]1.3.9[/B]
+
+Updated: Video Information screen
+Changed: EOL from DOS to UNIX
+
+[B]1.3.8[/B]
+
+Fixed: Hide Profiles
+Added: Logo Downloader button
+
+[B]1.3.7[/B]
+
+Fixed: Hide Video Root
+Fixed: Hide Add-On settings
+
+[B]1.3.6[/B]
+
+Fixed: Hide CDart when no CD cover is available
+
+[B]1.3.5[/B]
+
+Added: New Default Home layout (hide any item/s)
+Added: Music and Video Root buttons
+Updated: 576 flag
+
+[B]1.2.5[/B]
+
+Added: Hide Profiles option
+
+[B]1.2.4[/B]
+
+Changed: Removed Global_Background and replaced with <backgroundcolor> tags to speed up the skin
+Added: WEB-DL media flag
+Fixed: Plot overlap problem with Panel view
+
+[B]1.2.3[/B]
+
+Added: CDart
+
+[B]1.2.2[/B]
+
+Added: Logo viewtype
+Added: Logo support to Panel viewtype
+
+[B]1.2.1[/B]
+
+Added: 576 resolution flag
+
+[B]1.2.0[/B]
+
+Changed: Media flag code cleanup
+Changed: Latest Added labels to display singles correctly
+Changed: Sort order conditions and labels (needs feedback)
+Removed: Language strings re above
+
+[B]1.1.9[/B]
+
+Added: Panel viewtype
+Fixed: Add-on icon appearing behind Notification
+Fixed: No Build number
+Changed: Visualisation Volume Bar to match Full Screen Video
+
+[B]1.1.8[/B]
+
+Added: Add-On settings to Apps submenu
+
+[B]1.1.7[/B]
+
+Fixed: Ascending/Descending for Videos
+Updated: Sort Methods
+
+[B]1.1.6[/B]
+
+Added: 'Directors' to submenu
+
+[B]1.1.5[/B]
+
+Changed: 'Programs' label to 'Apps'
+
+[B]1.1.4[/B]
+
+Fixed: Custom button selection problem
+
+[B]1.1.3[/B]
+
+Moved: All home icons to extras/ so users can replace with their own
+Moved: All other image folders outside the media folder to extras/
+Added: Custom buttons to Movies and TV Shows
+Updated: Add-on Star rating0.png
+Added: Video Information screen > Left to close
+Updated: German language string.xml
+Added: Default sounds
+
+[B]1.1.2[/B]
+
+Added: Optional 'Play' icon for Video Info screen
+
+[B]1.1.1[/B]
+
+Added: Subtitle script textures
+
+[B]1.1.0[/B]
+
+Changed: Keyboard and Numberpad conditions
+Added: script-XBMC-Subtitles-main.xml
+
+[B]1.0.9[/B]
+
+Moved: Weather fanart and backdrops to skin folder
+
+[B]1.0.8[/B]
+
+Changed: Shutdown menu conditions
+Added: script-XBMC_Lyrics-main.xml
+
+[B]1.0.7[/B]
+
+Changed: Add-on Rating number to stars
+Fixed: Current temp spacing
+Added: Profiles to Home Icons
+Removed: settings_profiles.png
+
+[B]1.0.6[/B]
+
+Fixed: Add-ons update ON/OFF
+Removed: All script references
+Resized: Genre and Weather images
+
+[B]1.0.5[/B]
+
+Changed: 'Media' back to Textures.xbt
+Changed: Busy back to original
+Fixed: Current Temp. on Home
+
+[B]1.0.4[/B]
+
+Fixed: No default Add-On image
+Fixed: Changelog.txt missing
+
+[B]1.0.3[/B]
+
+Fixed: Scrollbar/One Page problem
+Fixed: Home Weather Settings image problem
+Added: German strings.xml
+
+
+[B]1.0.2[/B]
+
+Fixed: Hide DialogMediaSource.xml when keyboard is used
+Fixed: 'Title' and 'TV Show Title' both visible when they are the same
+Changed: Lyrics and Subtitle scripts no longer need adding in Settings
+
+[B]1.0.1[/B]
+
+Moved: Stray labels to the language strings.xml
+Changed: 'Programs' to 'Add-ons'
+Changed: 'Hide Reset' to 'Hide Reboot'
+Fixed: 'Hide Movies' bug
+Fixed: Multi-line wrap My Weather wind condition label
+
+[B]1.0.0[/B]
+
+Finished version ready for Dharma.

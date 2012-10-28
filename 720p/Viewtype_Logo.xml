@@ -1,0 +1,79 @@
+﻿<includes>
+	<include name="Viewtype_Logo">
+		<control type="group">
+			<visible>Control.IsVisible(56)</visible>
+			<!-- Browser -->
+			<control type="fixedlist" id="56">
+				<posx>-105</posx>
+				<posy>280</posy>
+				<height>500</height>
+				<width>1400</width>
+				<include condition="!Skin.HasSetting(ViewLockdown)">OnUp7000</include>
+				<ondown>60</ondown>
+				<onleft>56</onleft>
+				<onright>56</onright>
+				<viewtype label="31054">list</viewtype>
+				<orientation>horizontal</orientation>
+				<focusposition>2</focusposition>
+				<scrolltime>200</scrolltime>
+				<preloaditems>2</preloaditems>
+				<pagecontrol>60</pagecontrol>
+				<include>Animation_ZoomedByMenu</include>
+				<include>Animation_ZoomInZoomOut</include>
+				<include>Animation_HiddenByInfo</include>
+				<visible>Window.IsActive(videolibrary) + Container.Content(tvshows)</visible>
+				<itemlayout width="294" height="194">
+					<control type="image">
+						<posx>9</posx>
+						<posy>20</posy>
+						<width>272</width>
+						<height>153</height>
+						<texture background="true">$INFO[ListItem.Path]logo.png</texture>
+						<fadetime>200</fadetime>
+						<colordiffuse>LandscapeDiffuse</colordiffuse>
+						<aspectratio aligny="center">keep</aspectratio>
+						<include>Animation_HiddenByInfo</include>
+					</control>
+					<control type="image">
+						<posx>9</posx>
+						<posy>148</posy>
+						<width>272</width>
+						<height>153</height>
+						<texture background="true" flipy="true" diffuse="logo_matte_reflect.png">$INFO[ListItem.Path]logo.png</texture>
+						<fadetime>200</fadetime>
+						<colordiffuse>LandscapeDiffuse</colordiffuse>
+						<aspectratio aligny="center">keep</aspectratio>
+						<include>Animation_HiddenByInfo</include>
+					</control>
+				</itemlayout>
+				<focusedlayout width="318" height="178">
+					<control type="image">
+						<posx>12</posx>
+						<posy>14</posy>
+						<width>290</width>
+						<height>164</height>
+						<texture background="true">$INFO[ListItem.Path]logo.png</texture>
+						<fadetime>200</fadetime>
+						<aspectratio aligny="center">keep</aspectratio>
+						<animation type="Focus" reversible="false">
+							<effect type="zoom" center="auto" start="50" end="100" time="400" tween="back" easing="out" />
+						</animation>
+					</control>
+					<control type="image">
+						<posx>12</posx>
+						<posy>148</posy>
+						<width>290</width>
+						<height>164</height>
+						<texture background="true" flipy="true" diffuse="logo_matte_reflect.png">$INFO[ListItem.Path]logo.png</texture>
+						<fadetime>200</fadetime>
+						<aspectratio aligny="center">keep</aspectratio>
+						<animation type="Focus" reversible="false">
+							<effect type="zoom" center="auto" start="50" end="100" time="400" tween="back" easing="out" />
+						</animation>
+					</control>
+				</focusedlayout>
+			</control>
+			<include>ScrollBar_Horizontal</include>
+		</control>
+	</include>
+</includes>
